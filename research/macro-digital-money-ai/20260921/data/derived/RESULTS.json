@@ -1,0 +1,311 @@
+{
+  "T01": {
+    "status": "EXECUTED_SYNTHETIC",
+    "cases": 9,
+    "qualification": "Consolidated banks; internal reserves redistribute; foreign FX source not identified; no valuation/profit."
+  },
+  "T02": {
+    "status": "EXECUTED_SYNTHETIC",
+    "scenarios": 27,
+    "base_i4_g4_d2_b10": 1.2,
+    "low_i25_g55_d2_b10": 0.9256555221394749,
+    "high_i55_g25_d2_b10": 1.5629061966505156
+  },
+  "T03": {
+    "status": "EXECUTED_RESERVE_RECONCILIATION_AND_SENSITIVITY",
+    "Circle_assets": 73344909176,
+    "Circle_tokens": 73268560097,
+    "Circle_securities_share": 0.11621889408228013,
+    "Circle_repo_share": 0.7161642244856435,
+    "Tether_assets": 187751426411,
+    "Tether_US_bills_share": 0.6123040756683416,
+    "Tether_excess_assets": 4109529196,
+    "GIV_replication": "NOT_EXECUTED; identifying panel/control data not reconstructed",
+    "GIV_algebra_identity": 0.012333333333333332
+  },
+  "T04": {
+    "status": "EXECUTED_DESCRIPTIVE_NOT_CAUSAL",
+    "windows": [
+      {
+        "window": "2017_2019",
+        "start": "2017-01-01",
+        "end": "2019-12-31",
+        "n_pair": 36,
+        "n_btc_cpi": 36,
+        "btc_sp500_corr": -0.02391161760645056,
+        "btc_monthly_CPI_change_corr": -0.0267102948815231,
+        "btc_daily_mdd_within_window": -0.838015349610509,
+        "sp_down_months": 7,
+        "btc_mean_when_sp_down": 0.00844866077215843,
+        "btc_positive_share_when_sp_down": 0.2857142857142857,
+        "btc_nominal_usd": 6.353842834687734,
+        "btc_real_usd": 5.899100506051609,
+        "btc_nominal_krw": 6.058951128382851,
+        "btc_real_krw": 5.819898611204111,
+        "sp500_price_return": 0.4430662444223099,
+        "cash_quote_proxy": 0.05068738268770523
+      },
+      {
+        "window": "2020_2022",
+        "start": "2020-01-01",
+        "end": "2022-12-31",
+        "n_pair": 36,
+        "n_btc_cpi": 36,
+        "btc_sp500_corr": 0.5756583088263224,
+        "btc_monthly_CPI_change_corr": -0.22593876995375337,
+        "btc_daily_mdd_within_window": -0.7666162643019425,
+        "sp_down_months": 15,
+        "btc_mean_when_sp_down": -0.04208225094077673,
+        "btc_positive_share_when_sp_down": 0.26666666666666666,
+        "btc_nominal_usd": 1.3094407523878844,
+        "btc_real_usd": 0.9987506752626176,
+        "btc_nominal_krw": 1.5187466873315945,
+        "btc_real_krw": 1.2983794007505334,
+        "sp500_price_return": 0.1884127052909823,
+        "cash_quote_proxy": 0.02361534382213959
+      },
+      {
+        "window": "2023_2025",
+        "start": "2023-01-01",
+        "end": "2025-12-31",
+        "n_pair": 36,
+        "n_btc_cpi": 34,
+        "btc_sp500_corr": 0.4470527116490945,
+        "btc_monthly_CPI_change_corr": 0.21985677555866592,
+        "btc_daily_mdd_within_window": -0.3198689962459136,
+        "sp_down_months": 11,
+        "btc_mean_when_sp_down": 0.014549047283363188,
+        "btc_positive_share_when_sp_down": 0.5454545454545454,
+        "btc_nominal_usd": 4.304942229750166,
+        "btc_real_usd": 3.862379639975038,
+        "btc_nominal_krw": 5.081079129954135,
+        "btc_real_krw": null,
+        "sp500_price_return": 0.7829144419846334,
+        "cash_quote_proxy": 0.15774329915369445
+      },
+      {
+        "window": "2017_2025",
+        "start": "2017-01-01",
+        "end": "2025-12-31",
+        "n_pair": 108,
+        "n_btc_cpi": 106,
+        "btc_sp500_corr": 0.3277570101366857,
+        "btc_monthly_CPI_change_corr": -0.12216349969960885,
+        "btc_daily_mdd_within_window": -0.838015349610509,
+        "sp_down_months": 33,
+        "btc_mean_when_sp_down": -0.012486473290592328,
+        "btc_positive_share_when_sp_down": 0.36363636363636365,
+        "btc_nominal_usd": 89.09523613836465,
+        "btc_real_usd": 66.05018176463092,
+        "btc_nominal_krw": 107.11982202294091,
+        "btc_real_krw": null,
+        "sp500_price_return": 2.0576238481706963,
+        "cash_quote_proxy": 0.24515260157322594
+      },
+      {
+        "window": "2026_YTD_Aug",
+        "start": "2026-01-01",
+        "end": "2026-08-31",
+        "n_pair": 8,
+        "n_btc_cpi": 8,
+        "btc_sp500_corr": 0.37967948231980597,
+        "btc_monthly_CPI_change_corr": 0.53624030030335,
+        "btc_daily_mdd_within_window": -0.39510377127543206,
+        "sp_down_months": 4,
+        "btc_mean_when_sp_down": -0.06569076606640428,
+        "btc_positive_share_when_sp_down": 0.5,
+        "btc_nominal_usd": -0.10368751140302856,
+        "btc_real_usd": -0.12541590882091402,
+        "btc_nominal_krw": -0.15103003528932457,
+        "btc_real_krw": null,
+        "sp500_price_return": 0.12280184062522825,
+        "cash_quote_proxy": 0.025087770715141122
+      }
+    ],
+    "annual_2022": {
+      "year": 2022,
+      "n_months": 12,
+      "BTC_USD": -0.6425314679780116,
+      "BTC_real_USD": -0.6640478600828716,
+      "BTC_KRW": -0.6210007700860101,
+      "BTC_real_KRW": -0.6391738663959403,
+      "SP500_price": -0.19442824232404154,
+      "CPI": 0.06404600402357152,
+      "USD_broad": 0.05328279104464673,
+      "cash_quote_proxy": 0.018622702720016537
+    },
+    "holding_horizons": [
+      {
+        "months": 12,
+        "n_overlapping_windows": 107,
+        "loss_share": 0.24299065420560748,
+        "min_return": -0.7389199910984672,
+        "median_return": 0.7060759639987588,
+        "max_return": 12.945378354330277
+      },
+      {
+        "months": 36,
+        "n_overlapping_windows": 95,
+        "loss_share": 0.021052631578947368,
+        "min_return": -0.10318201226597534,
+        "median_return": 3.449995182387741,
+        "max_return": 42.61296309122057
+      },
+      {
+        "months": 60,
+        "n_overlapping_windows": 71,
+        "loss_share": 0.014084507042253521,
+        "min_return": -0.011171913389254051,
+        "median_return": 8.388927044381001,
+        "max_return": 126.07849775918271
+      }
+    ],
+    "limits": [
+      "SP500 price excludes dividends",
+      "cash is accrued previous-month annualized quote/12, not investable total return",
+      "month-end FX and BTC closing times differ",
+      "realized CPI change is not inflation surprise",
+      "revised vintage; not a real-time forecast",
+      "gold comparison unavailable",
+      "overlapping holdings are not independent samples"
+    ]
+  },
+  "T05": {
+    "status": "EXECUTED_SYNTHETIC_COST_AND_OFFLINE_AUTHORIZATION_MODEL",
+    "implementation_ceiling": "Not AP2/x402 conformance, no signature verification, no chain settlement, no refund guarantee",
+    "cost": [
+      {
+        "rail": "card_per_request",
+        "payment_value": 10,
+        "requests": 1000,
+        "fee_fixed": 0.3,
+        "fee_rate": 0.029,
+        "settlement_batches": 1000,
+        "network_fee_each": 0,
+        "on_off_ramp_total": 0,
+        "prefunding_cost": 0.0,
+        "expected_failure_cost": 0,
+        "human_review_cost": 0,
+        "total_incremental_cost": 300.29,
+        "kind": "SYNTHETIC_ASSUMPTIONS_NOT_PRICE_QUOTE"
+      },
+      {
+        "rail": "card_monthly_batch",
+        "payment_value": 10,
+        "requests": 1000,
+        "fee_fixed": 0.3,
+        "fee_rate": 0.029,
+        "settlement_batches": 1,
+        "network_fee_each": 0,
+        "on_off_ramp_total": 0,
+        "prefunding_cost": 0.0,
+        "expected_failure_cost": 0,
+        "human_review_cost": 0,
+        "total_incremental_cost": 0.5900000000000001,
+        "kind": "SYNTHETIC_ASSUMPTIONS_NOT_PRICE_QUOTE"
+      },
+      {
+        "rail": "bank_token_batch_assumed",
+        "payment_value": 10,
+        "requests": 1000,
+        "fee_fixed": 0.1,
+        "fee_rate": 0,
+        "settlement_batches": 1,
+        "network_fee_each": 0,
+        "on_off_ramp_total": 0,
+        "prefunding_cost": 0.0013698630136986301,
+        "expected_failure_cost": 0.01,
+        "human_review_cost": 0.02,
+        "total_incremental_cost": 0.13136986301369863,
+        "kind": "SYNTHETIC_ASSUMPTIONS_NOT_PRICE_QUOTE"
+      },
+      {
+        "rail": "stablecoin_prefunded",
+        "payment_value": 10,
+        "requests": 1000,
+        "fee_fixed": 0,
+        "fee_rate": 0,
+        "settlement_batches": 1000,
+        "network_fee_each": 0.001,
+        "on_off_ramp_total": 0,
+        "prefunding_cost": 0.0410958904109589,
+        "expected_failure_cost": 0.01,
+        "human_review_cost": 0.02,
+        "total_incremental_cost": 1.0710958904109589,
+        "kind": "SYNTHETIC_ASSUMPTIONS_NOT_PRICE_QUOTE"
+      },
+      {
+        "rail": "stablecoin_new_on_off_ramp",
+        "payment_value": 10,
+        "requests": 1000,
+        "fee_fixed": 0,
+        "fee_rate": 0,
+        "settlement_batches": 1000,
+        "network_fee_each": 0.001,
+        "on_off_ramp_total": 1,
+        "prefunding_cost": 0.0410958904109589,
+        "expected_failure_cost": 0.01,
+        "human_review_cost": 0.02,
+        "total_incremental_cost": 2.071095890410959,
+        "kind": "SYNTHETIC_ASSUMPTIONS_NOT_PRICE_QUOTE"
+      }
+    ]
+  },
+  "T06": {
+    "status": "EXECUTED_STRUCTURED_COMPARISON_NOT_MICRODATA_REPLICATION",
+    "Cui_normal_95pct_interval": [
+      0.05892,
+      0.46268
+    ],
+    "METR_time_plus19_equivalent_throughput_if_fixed_quality": -0.15966386554621848,
+    "prohibited_interpretation": "No average across different populations/estimands; no aggregate GDP estimate."
+  },
+  "T07": {
+    "status": "EXECUTED_SYNTHETIC",
+    "compute_rebound_threshold_full_pass_through": "eta>1 at e<1, unchanged quality; energy threshold depends on k",
+    "payment_balance_base": 83333333.33333333,
+    "payment_double_turnover_double": 83333333.33333333
+  },
+  "T08": {
+    "status": "EXECUTED_ISSUER_COMPANY_ARITHMETIC_AND_SCENARIOS",
+    "circle": {
+      "reserve_income": 667733000,
+      "other_revenue": 33582000,
+      "distribution_transaction_other_costs": 412470000,
+      "revenue_reserve_total": 701315000,
+      "after_distribution_before_opex": 288845000,
+      "reserve_fraction": 0.9521156684228913,
+      "operating_expenses": 254486000,
+      "operating_income": 34359000,
+      "other_income": 17947000,
+      "income_tax": 4092000,
+      "net_income_continuing": 48214000
+    },
+    "MSFT": [
+      {
+        "fiscal_year": 2025,
+        "net_income": 101832,
+        "operating_cash_flow": 136162,
+        "cash_PPE_additions": 64551,
+        "CFO_less_cash_PPE": 71611,
+        "depreciation_amortization_and_other": 29433,
+        "source_id": "S46",
+        "unit": "USD_millions",
+        "scope": "whole_company_not_AI_segment"
+      },
+      {
+        "fiscal_year": 2026,
+        "net_income": 133749,
+        "operating_cash_flow": 182935,
+        "cash_PPE_additions": 115948,
+        "CFO_less_cash_PPE": 66987,
+        "depreciation_amortization_and_other": 38534,
+        "source_id": "S46",
+        "unit": "USD_millions",
+        "scope": "whole_company_not_AI_segment"
+      }
+    ],
+    "MSFT_CFO_less_cash_PPE_growth": -0.06457108544776635,
+    "balance_up25_yield4_to3_income_change": -0.0625
+  }
+}

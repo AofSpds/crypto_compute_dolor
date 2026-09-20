@@ -1,0 +1,50 @@
+{
+  "source_records": 68,
+  "seed_records": 28,
+  "added_document_records": 29,
+  "data_series_records": 10,
+  "failed_data_candidates": 1,
+  "read_depth_counts": {
+    "SUMMARY_READ": 1,
+    "SECTIONS_READ": 13,
+    "DISCOVERED": 10,
+    "METHODS_RESULTS_READ": 9,
+    "PORTAL_READ": 3,
+    "FULL_SHORT_DOCUMENT_READ": 3,
+    "METHODOLOGY_PARTIAL": 3,
+    "EXECUTIVE_SUMMARY_READ": 2,
+    "SECTIONS_AND_TABLE_VISUAL_READ": 2,
+    "FINANCIAL_TABLE_READ": 2,
+    "SEARCH_SUMMARY_ONLY": 1,
+    "SEARCH_EXCERPT_ONLY": 1,
+    "ABSTRACT_ONLY": 3,
+    "CATALOG_READ": 1,
+    "CODE_SECTIONS_READ": 1,
+    "SPEC_SECTIONS_READ": 2,
+    "DATA_ANALYZED": 10,
+    "ACCESS_LIMITED": 1
+  },
+  "source_families": 56,
+  "reviewed_research_families": [
+    "ACEMOGLU_AI",
+    "BIS1270",
+    "BIS_AMSTERDAM",
+    "BLANCHARD_DEBT2019",
+    "CUI_COPILOT",
+    "GENAI_WORK",
+    "IMF_STABLECOIN_SHOCKS",
+    "METR_PRODUCTIVITY"
+  ],
+  "claim_count": 32,
+  "assessment_counts": {
+    "CONDITIONAL": 11,
+    "SUPPORTED_IN_SCOPE": 16,
+    "INSUFFICIENT_EVIDENCE": 3,
+    "MIXED": 2
+  },
+  "decision_delta_counts": {
+    "REFINED": 21,
+    "RETAINED_IN_SCOPE": 8,
+    "HELD": 3
+  }
+}

@@ -1,0 +1,4 @@
+# Local source copies are for analysis, not cleared for redistribution.
+data/raw/*
+!data/raw/DOWNLOAD_MANIFEST.json
+analysis/__pycache__/

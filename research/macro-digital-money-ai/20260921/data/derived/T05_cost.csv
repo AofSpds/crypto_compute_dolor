@@ -1,0 +1,6 @@
+﻿rail,payment_value,requests,fee_fixed,fee_rate,settlement_batches,network_fee_each,on_off_ramp_total,prefunding_cost,expected_failure_cost,human_review_cost,total_incremental_cost,kind
+card_per_request,10,1000,0.3,0.029,1000,0.0,0,0.0,0.0,0.0,300.29,SYNTHETIC_ASSUMPTIONS_NOT_PRICE_QUOTE
+card_monthly_batch,10,1000,0.3,0.029,1,0.0,0,0.0,0.0,0.0,0.5900000000000001,SYNTHETIC_ASSUMPTIONS_NOT_PRICE_QUOTE
+bank_token_batch_assumed,10,1000,0.1,0.0,1,0.0,0,0.0013698630136986301,0.01,0.02,0.13136986301369863,SYNTHETIC_ASSUMPTIONS_NOT_PRICE_QUOTE
+stablecoin_prefunded,10,1000,0.0,0.0,1000,0.001,0,0.0410958904109589,0.01,0.02,1.0710958904109589,SYNTHETIC_ASSUMPTIONS_NOT_PRICE_QUOTE
+stablecoin_new_on_off_ramp,10,1000,0.0,0.0,1000,0.001,1,0.0410958904109589,0.01,0.02,2.071095890410959,SYNTHETIC_ASSUMPTIONS_NOT_PRICE_QUOTE

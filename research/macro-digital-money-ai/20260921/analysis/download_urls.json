@@ -1,0 +1,22 @@
+{
+  "bis1270_june2026.pdf": "https://www.bis.org/publications/working-paper-1270-stablecoins-and-safe-asset-prices.pdf",
+  "circle_june2026.pdf": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20June%2026.pdf",
+  "tether_june2026.pdf": "https://assets.ctfassets.net/vyse88cgwfbl/2kYf7r64h3tzwiu6F0CbUB/2997abd2f11ecea74a21528048b50707/Opinion___Report_-_Tether_International_Financial_Figure_30-06-2026.pdf",
+  "boe_creation.pdf": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2014/money-creation-in-the-modern-economy.pdf",
+  "genius_act.pdf": "https://www.govinfo.gov/content/pkg/PLAW-119publ27/pdf/PLAW-119publ27.pdf",
+  "blanchard2019.pdf": "https://www.piie.com/sites/default/files/documents/wp19-4.pdf",
+  "metr2025.pdf": "https://metr.org/Early_2025_AI_Experienced_OS_Devs_Study-paper.pdf",
+  "cui2025.pdf": "https://economics.mit.edu/sites/default/files/inline-files/draft_copilot_experiments.pdf",
+  "generative_ai_work_v2.pdf": "https://arxiv.org/pdf/2304.11771v2",
+  "circle_q22026.html": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000246/augustepr-circle_q22026f.htm",
+  "ap2_commit.json": "https://api.github.com/repos/google-agentic-commerce/AP2/commits/main",
+  "x402_commit.json": "https://api.github.com/repos/coinbase/x402/commits/main",
+  "bitcoin_validation.cpp": "https://raw.githubusercontent.com/bitcoin/bitcoin/v30.0/src/validation.cpp",
+  "bitcoin_chainparams.cpp": "https://raw.githubusercontent.com/bitcoin/bitcoin/v30.0/src/kernel/chainparams.cpp",
+  "eip1559.html": "https://eips.ethereum.org/EIPS/eip-1559",
+  "eip4844.html": "https://eips.ethereum.org/EIPS/eip-4844",
+  "gold_gld_stooq.csv": "https://stooq.com/q/d/l/?s=gld.us&i=d&d1=20160101&d2=20260918",
+  "bis1065_nov2023.pdf": "https://www.bis.org/publications/working-paper-1065-bank-amsterdam-and-limits-fiat-money.pdf",
+  "imf_stablecoin_shocks2026.pdf": "https://www.imf.org/-/media/files/publications/wp/2026/english/wpiea2026044-source-pdf.pdf",
+  "acemoglu_may2024.pdf": "https://shapingwork.mit.edu/wp-content/uploads/2024/05/Acemoglu_Macroeconomics-of-AI_May-2024.pdf"
+}

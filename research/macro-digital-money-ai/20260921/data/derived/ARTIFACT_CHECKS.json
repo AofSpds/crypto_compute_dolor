@@ -1,0 +1,72 @@
+{
+  "checked_at": "2026-09-20T17:15:32.989785+00:00",
+  "review_status": "AUTHOR_SELF_REVIEW_ONLY",
+  "checks": [
+    {
+      "check": "six_nonempty_deliverables",
+      "passed": true
+    },
+    {
+      "check": "32_original_questions_assessed",
+      "passed": true
+    },
+    {
+      "check": "unique_source_ids",
+      "passed": true
+    },
+    {
+      "check": "claim_references_resolve",
+      "passed": true
+    },
+    {
+      "check": "no_unread_source_as_support",
+      "passed": true
+    },
+    {
+      "check": "all_registered_local_sources_match_SHA",
+      "passed": true
+    },
+    {
+      "check": "raw_downloads_match_SHA",
+      "passed": true
+    },
+    {
+      "check": "gold_challenge_not_data",
+      "passed": true
+    },
+    {
+      "check": "24_executed_analytic_checks",
+      "passed": true
+    },
+    {
+      "check": "T01_to_T08_actual_results",
+      "passed": true
+    },
+    {
+      "check": "2022_real_return_independent_identity",
+      "passed": true
+    },
+    {
+      "check": "claim_counts_agree",
+      "passed": true
+    },
+    {
+      "check": "return_timestamp_recorded",
+      "passed": true
+    },
+    {
+      "check": "relative_artifact_links_exist",
+      "passed": true
+    }
+  ],
+  "broken_links": [],
+  "files": {
+    "REPORT.md": "ab20edc0faa5d1b5bc586e5932f779a4c25f99970f2a97caf8c21bb46ae5b986",
+    "SOURCES.jsonl": "0675702c427fa494f502ac66158d3ed6207e83535cfa9a31130b495f56277e10",
+    "CLAIMS.jsonl": "646ca46b0e519c64ee98a9e018e1160f12e13108b8b243cf56384f7523dde4dd",
+    "ANALYSIS_AND_REVIEW.md": "17ce28e15672eebe59808d2c64e27184cb6752b8b733164c67d69986bc317430",
+    "CHECKPOINT.md": "296aa3fff76df4e73fee53c60e4cd4ec4472b999195cebbd04874ac01dbb8b43",
+    "RESEARCH_RETURN_PACKET.md": "e1f9a985c6ced0f477d6e74c5df73e0417398b2b295aaa08c18363af44c2bd73"
+  },
+  "scope": "Local references, byte identity and selected arithmetic; not independent research validation."
+}

@@ -1,0 +1,103 @@
+{
+  "executed_at": "2026-09-20T16:53:18.328250+00:00",
+  "pandas": "3.0.1",
+  "numpy": "2.3.5",
+  "checks": [
+    {
+      "check": "CBBTCUSD_no_duplicate_dates",
+      "passed": true
+    },
+    {
+      "check": "SP500_no_duplicate_dates",
+      "passed": true
+    },
+    {
+      "check": "NASDAQCOM_no_duplicate_dates",
+      "passed": true
+    },
+    {
+      "check": "CPIAUCSL_no_duplicate_dates",
+      "passed": true
+    },
+    {
+      "check": "DEXKOUS_no_duplicate_dates",
+      "passed": true
+    },
+    {
+      "check": "DTWEXBGS_no_duplicate_dates",
+      "passed": true
+    },
+    {
+      "check": "DGS3MO_no_duplicate_dates",
+      "passed": true
+    },
+    {
+      "check": "DGS10_no_duplicate_dates",
+      "passed": true
+    },
+    {
+      "check": "DFF_no_duplicate_dates",
+      "passed": true
+    },
+    {
+      "check": "KORCPIALLMINMEI_no_duplicate_dates",
+      "passed": true
+    },
+    {
+      "check": "T01_each_entity_balances",
+      "passed": true
+    },
+    {
+      "check": "T02_equal_rate_growth_identity",
+      "passed": true
+    },
+    {
+      "check": "T03_Circle_sum",
+      "passed": true
+    },
+    {
+      "check": "T03_Tether_sum",
+      "passed": true
+    },
+    {
+      "check": "T03_GIV_algebra",
+      "passed": true
+    },
+    {
+      "check": "T04_missing_Korean_CPI_not_zero",
+      "passed": true
+    },
+    {
+      "check": "T04_real_return_endpoint_identity",
+      "passed": true
+    },
+    {
+      "check": "T05_mock_valid",
+      "passed": true
+    },
+    {
+      "check": "T05_mock_replay",
+      "passed": true
+    },
+    {
+      "check": "T05_mock_budget",
+      "passed": true
+    },
+    {
+      "check": "T05_mock_expiry",
+      "passed": true
+    },
+    {
+      "check": "T05_mock_merchant",
+      "passed": true
+    },
+    {
+      "check": "T08_Circle_operating_and_net_bridge",
+      "passed": true
+    },
+    {
+      "check": "T08_MSFT_FCF_proxy",
+      "passed": true
+    }
+  ]
+}
