@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-09-20T17:38:31.041269+00:00",
+  "synced_at": "2026-09-20T17:42:47.848868+00:00",
   "source": "C:\\Users\\ms1pk\\OneDrive\\문서\\ChatGPT\\크립토 연구\\research\\macro-digital-money-ai\\20260921",
   "destination": "C:\\Users\\ms1pk\\dev\\rsch\\crypto_compute_dolor\\research\\macro-digital-money-ai\\20260921",
   "files": {
@@ -13,7 +13,7 @@
     "REPORT.md": "ab20edc0faa5d1b5bc586e5932f779a4c25f99970f2a97caf8c21bb46ae5b986",
     "RESEARCH_RETURN_PACKET.md": "521c9b7b9f1801778f530e338723c428e5e26d0c77ed0e8dde5ecffe94574d11",
     "SOURCES.jsonl": "0675702c427fa494f502ac66158d3ed6207e83535cfa9a31130b495f56277e10",
-    "WEBCHAT_HANDOFF_PACKET.md": "dff61d0916bb7460e4da1afad3006dfe68f187d85732a44c406464f0ba863a63",
+    "WEBCHAT_HANDOFF_PACKET.md": "3b107cd8c0bd2101fe00c279f1f86d279d2fa04eb1f637c76f96156e39cc29cd",
     "analysis/acquire.py": "a0ba120b68a5f91e8886080237212e05af5e423c474507cccce459803dc4705d",
     "analysis/build_registers.py": "462f04121ed564fdc6a95d6853b017af61036d496cdaa9494ce209a309bf4a5a",
     "analysis/download_urls.json": "5572b13202bd50352a1f83a94c3a81748c548b7badecd3004d83e9b17a1f0096",
@@ -23,6 +23,7 @@
     "data/derived/ARTIFACT_CHECKS.json": "cf8829de5c1728ae3b453d02d3953b11c3b29e7804ed54a0b777ef14bf727f24",
     "data/derived/CHECKS.json": "15cd8c90278153e4d0566c749664f97cab9d5998f6ce6eaba64f1494d7360c1c",
     "data/derived/data_inventory.csv": "3f88019a9bdbd5fae5a60c18ca96fc477ae7b815a6146af832889fcf36369683",
+    "data/derived/GIT_DELIVERY_RECORD.json": "3b3bb156f54b53e6a8661e065e39e2715d04f6704b43a1e0071fbefd1b0287ea",
     "data/derived/REGISTER_SUMMARY.json": "056eccbffc8b257ddda862501cc6f51e342fead226ea61e8a143b48ea45900c0",
     "data/derived/RESULTS.json": "49b1ffed8c537710efeb52e84facf4a9297b9de8762ce6a655fbf32846702239",
     "data/derived/T01_ledger.csv": "f4548ec459693fc40bd4689f0ebd310a48907b64eaed2420dee769ce96d85fb0",

@@ -18,7 +18,8 @@ LOCAL_REPOSITORY = C:\Users\ms1pk\dev\rsch\crypto_compute_dolor
 RESEARCH_PATH = research/macro-digital-money-ai/20260921/
 BRANCH = codex/mdma-research-20260921
 RESEARCH_SNAPSHOT_COMMIT = bd53a2f3988ec00d9e952ec7f81daf69dae282af
-DELIVERY_DOCUMENT_VERSION = 위 snapshot 이후 인계 문서 커밋; 실제 HEAD는 git log로 확인
+DELIVERY_CONTENT_COMMIT = 5545af843d2fc40c1dcae937fc19dbc6d824265f
+FINAL_RECORD_COMMIT = 이 파일의 후속 기록 커밋은 실제 HEAD에서 확인
 REMOTE = https://github.com/AofSpds/crypto_compute_dolor.git
 REMOTE_STATUS = PUSH_VERIFIED; 사용자 명시 승인 후 원격 연구 브랜치의 snapshot 대조 완료
 ```
@@ -95,3 +96,9 @@ Circle2026Q2는 유통비 차감 후288.845M이 순이익이 아니며, 운영�
 실거래·계좌/지갑접속·유료접근·운영전략 변경·자동매매 입력 승격은 범위 밖입니다. HLOM의 과거 운영권한을 본 연구에 이전하지 않습니다. 일반적인 연구·검토 단계마다 승인을 요청할 필요는 없습니다. GitHub push는 사용자 명시 승인 후 Codex에서 완료했습니다. 별도 운영 변경 권한을 뜻하지 않습니다.
 
 최종 응답 말미에 마일스톤과 현재 위치를 표시해 주세요.
+
+## 7. 최종 보존 기록
+
+사용자는 연구의 Git 저장·push를 명시적으로 승인했고, 이어 전체 기록과 코드블록 인계를 요청했습니다. 연구 snapshot bd53a2f와 인계 내용 5545af8은 원격 연구 브랜치에 반영되어 로컬/원격 SHA 일치를 확인했습니다. 이번 후속 기록은 결론이나 원자료를 변경하지 않습니다. PR·merge·운영 변경은 없습니다. 상세 시점과 검증 범위는 data/derived/GIT_DELIVERY_RECORD.json에 있습니다.
+
+마일스톤: R0–R5 완료(한계 명시), Git 원격 보존 완료. 현재 위치: 웹챗 검토·후속 연구 인계.

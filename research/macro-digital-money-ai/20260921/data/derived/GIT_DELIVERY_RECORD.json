@@ -1,0 +1,17 @@
+{
+  "recorded_at": "2026-09-20T17:42:42.824488+00:00",
+  "repository": "https://github.com/AofSpds/crypto_compute_dolor.git",
+  "branch": "codex/mdma-research-20260921",
+  "research_snapshot_commit": "bd53a2f3988ec00d9e952ec7f81daf69dae282af",
+  "delivery_content_commit": "5545af843d2fc40c1dcae937fc19dbc6d824265f",
+  "remote_verified_commit": "5545af843d2fc40c1dcae937fc19dbc6d824265f",
+  "remote_verification": "git ls-remote --heads origin codex/mdma-research-20260921 matched local HEAD after successful push",
+  "worktree_at_verification": "CLEAN",
+  "authorization": "User explicitly approved push: 승인합니다 그냥 하세요; 푸시하세요 승인합니다.",
+  "initial_auto_review_rejection": "Resolved by subsequent explicit user approval; no workaround",
+  "scope": "Research documents, source/claim ledgers, code, derived results and manifests; source PDFs and raw price files retained locally",
+  "review_status": "AUTHOR_SELF_REVIEW_ONLY",
+  "followup": "This receipt and updated packet are recorded in a subsequent commit; resolve its identity from Git history",
+  "external_chat_dispatch": "NOT_PERFORMED; packet provided to user",
+  "pr_or_merge": "NOT_PERFORMED"
+}
