@@ -16,7 +16,7 @@ if __name__=='__main__':
         if not target.exists() or sha(target)!=h:
             target.parent.mkdir(parents=True,exist_ok=True); shutil.copy2(p,target); copied+=1
         assert sha(target)==h; records[rel]=h
-    result={'synced_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source':str(SRC),'destination':str(DEST),'files':records,'git_commit':'NOT_CREATED','remote_status':'NOT_PUSHED'}
+    result={'synced_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source':str(SRC),'destination':str(DEST),'files':records,'git_scope':'COPY_ONLY; see Git history and RESEARCH_RETURN_PACKET.md for commit state','remote_status':'NOT_CHECKED_BY_COPY_TOOL'}
     receipt.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
     shutil.copy2(receipt,DEST/'analysis'/'SYNC_RECEIPT.json')
     print(json.dumps({'verified_files':len(records),'copied_or_updated':copied,'destination':str(DEST)},ensure_ascii=False))

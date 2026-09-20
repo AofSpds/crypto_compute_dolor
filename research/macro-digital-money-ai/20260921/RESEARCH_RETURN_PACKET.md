@@ -15,10 +15,10 @@ OUTPUT_ROOT = C:\Users\ms1pk\dev\rsch\crypto_compute_dolor\research\macro-digita
 WORKING_COPY = C:\Users\ms1pk\OneDrive\문서\ChatGPT\크립토 연구\research\macro-digital-money-ai\20260921
 GIT_REPOSITORY = C:\Users\ms1pk\dev\rsch\crypto_compute_dolor
 GIT_REMOTE = https://github.com/AofSpds/crypto_compute_dolor.git (origin 설정 확인)
-GIT_BRANCH = main (unborn; 연구 브랜치 생성 없음)
-GIT_COMMIT = NOT_CREATED
-GIT_COMMITTER_IDENTITY = NOT_USED_NO_COMMIT
-REMOTE_STATUS = NOT_PUSHED / 원격 파일 내용 미조회
+GIT_BRANCH = codex/mdma-research-20260921
+GIT_COMMIT = bd53a2f3988ec00d9e952ec7f81daf69dae282af (연구 본문 snapshot; 인계 문서는 후속 커밋)
+GIT_COMMITTER_IDENTITY = rghtHpSnpr (기존 Git 설정 사용)
+REMOTE_STATUS = PUSH_VERIFIED / origin 연구 브랜치에서 연구 snapshot 확인
 REVIEW_STATUS = AUTHOR_SELF_REVIEW_ONLY
 USER_NEXT_ACTION = 없음
 ```
@@ -96,6 +96,8 @@ NBER403, 역사문헌404/challenge, IMF/SEC 직접다운로드403, 금CSV대신H
 
 원자료 snapshot을 보존했으므로 재현에 다시 다운로드할 필요가 없다. 새 빈티지는 별도 경로에 저장한다. HLOM 문서·운영권한은 변경하지 않았다. 첨부문서의 역할·가설을 사용자 승인이나 확정사실로 자동 승격하지 않았다.
 
-사용자 추가 지시에 따라 연결저장소에 지속 저장했다. **파일은 로컬에 있으며 GitHub에는 push하지 않았다.** 실거래·유료접근·계좌/지갑 연결·운영전략 변경·입력릴리스 승격·자동화 예약은 수행하지 않았다.
+사용자 추가 지시에 따라 연결저장소에 지속 저장하고, 2026-09-21 후속 요청으로 연구 브랜치에 로컬 커밋을 생성했다. **사용자가 push를 명시적으로 승인한 뒤 GitHub 연구 브랜치에 전송했고, 원격 커밋을 대조했다.** 최초 자동 승인 검토 거절 후 사용자 승인을 받아 진행한 기록이며 우회한 것이 아니다. 실거래·유료접근·계좌/지갑 연결·운영전략 변경·입력릴리스 승격·자동화 예약은 수행하지 않았다.
 
-마일스톤: **R0→R1→R2→R3→R4→R5 완료(명시된 한계 포함)**. 현재 위치: **R5 결과 인계**. 사용자 추가 행동: **없음**.
+웹챗 전달용은 [WEBCHAT_HANDOFF_PACKET.md](WEBCHAT_HANDOFF_PACKET.md)다. 원문 PDF·원시 가격 파일은 Git에 포함하지 않았다. 따라서 원격 clone 또는 Git archive만으로 원자료를 요구하는 계산/검사를 그대로 실행할 수 없다. 고정 원자료는 로컬 연구 폴더에 있으며, Git에는 가공 결과·코드·원자료 URL/해시가 있다. 다시 수집하면 원래 빈티지와 달라질 수 있다.
+
+마일스톤: **R0→R1→R2→R3→R4→R5 완료(명시된 한계 포함)**. 현재 위치: **R5 후속 — Git 기록·원격 push 확인·웹챗 인계**.

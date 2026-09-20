@@ -124,4 +124,6 @@ Tether보도자료의184.6B 표현과 보고서의 토큰관련부채183.622B는
 
 `CLAIMS.jsonl`:원질문32개, 미평가0. 범위 내 지지16·조건부11·혼합2·근거부족3. 질문을 유지8·수정21·보류3으로 처리했다. 추가 설명3개는 REPORT에서 시나리오로 기록해 검증된 명제와 분리했다.
 
-원본 작업은 허용된 OneDrive 연구 폴더에서 이루어지고 `analysis/sync_local.py`로 연결저장소의 이번 연구 하위폴더만 복사했다. 대상 파일이 마지막 동기화 후 외부에서 변경되면 덮어쓰지 않고 중단한다. 삭제·Git기록·push는 수행하지 않는다. SHA별 복사 영수증은 `analysis/SYNC_RECEIPT.json`이다. 최종 구조·ID참조·hash검사 결과는 `data/derived/ARTIFACT_CHECKS.json`에 남긴다.
+원본 작업은 허용된 OneDrive 연구 폴더에서 이루어지고 `analysis/sync_local.py`로 연결저장소의 이번 연구 하위폴더만 복사했다. 대상 파일이 마지막 동기화 후 외부에서 변경되면 덮어쓰지 않고 중단한다. 복사 도구 자체는 삭제·Git기록·push를 수행하지 않는다. 사용자 후속 요청에 따른 로컬 Git snapshot은 `bd53a2f3988ec00d9e952ec7f81daf69dae282af`이며 원격 push는 최초 자동 승인 검토 거절 후 사용자 명시 승인을 받아 수행·확인했다. SHA별 복사 영수증은 `analysis/SYNC_RECEIPT.json`, 파일·ID·hash검사 결과는 `data/derived/ARTIFACT_CHECKS.json`이다. `.gitattributes`는 Git 줄바꿈 변환을 막아 보존한 바이트를 유지한다.
+
+Git에는 원문 PDF·원시 가격 snapshot이 포함되지 않는다. 새 clone/Git archive에는 가공 결과·코드·원자료 URL/해시만 있으므로 raw가 필요한 분석/검사는 로컬 보존본과 함께 실행한다. 공개 URL 재수집은 동일한 빈티지 재현을 보장하지 않는다.

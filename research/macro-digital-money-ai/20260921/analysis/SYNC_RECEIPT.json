@@ -1,25 +1,26 @@
 {
-  "synced_at": "2026-09-20T17:32:45.144111+00:00",
+  "synced_at": "2026-09-20T17:38:31.041269+00:00",
   "source": "C:\\Users\\ms1pk\\OneDrive\\문서\\ChatGPT\\크립토 연구\\research\\macro-digital-money-ai\\20260921",
   "destination": "C:\\Users\\ms1pk\\dev\\rsch\\crypto_compute_dolor\\research\\macro-digital-money-ai\\20260921",
   "files": {
     ".gitattributes": "17f4a575d8f9417fef83192dbb55d035e0d189059fe0d37f48504d3ad0b72957",
     ".gitignore": "e563346496ffed564a942cf8679093abfd99e6d90cf90e1df0e8d96a64a197f2",
-    "ANALYSIS_AND_REVIEW.md": "17ce28e15672eebe59808d2c64e27184cb6752b8b733164c67d69986bc317430",
-    "CHECKPOINT.md": "296aa3fff76df4e73fee53c60e4cd4ec4472b999195cebbd04874ac01dbb8b43",
+    "ANALYSIS_AND_REVIEW.md": "556ea997068d056f8e7024322de88616966b8604665de0093a52fd87dc6dcf92",
+    "CHECKPOINT.md": "1df65acf4c6edf178259348079bb18aac5242ad394ffe051a064746493ab652a",
     "CLAIMS.jsonl": "646ca46b0e519c64ee98a9e018e1160f12e13108b8b243cf56384f7523dde4dd",
     "HANDOFF_INPUT.md": "1cbfe7738e788d1718e2435c277023fc18efc940ade1930d6e9c2c358dbb91c7",
     "PROGRESS_FINDINGS.md": "afd2f80404c75d32bd9404f9f32aadb5071b8678ec36f03b6e71a980d0692455",
     "REPORT.md": "ab20edc0faa5d1b5bc586e5932f779a4c25f99970f2a97caf8c21bb46ae5b986",
-    "RESEARCH_RETURN_PACKET.md": "e1f9a985c6ced0f477d6e74c5df73e0417398b2b295aaa08c18363af44c2bd73",
+    "RESEARCH_RETURN_PACKET.md": "521c9b7b9f1801778f530e338723c428e5e26d0c77ed0e8dde5ecffe94574d11",
     "SOURCES.jsonl": "0675702c427fa494f502ac66158d3ed6207e83535cfa9a31130b495f56277e10",
+    "WEBCHAT_HANDOFF_PACKET.md": "dff61d0916bb7460e4da1afad3006dfe68f187d85732a44c406464f0ba863a63",
     "analysis/acquire.py": "a0ba120b68a5f91e8886080237212e05af5e423c474507cccce459803dc4705d",
     "analysis/build_registers.py": "462f04121ed564fdc6a95d6853b017af61036d496cdaa9494ce209a309bf4a5a",
     "analysis/download_urls.json": "5572b13202bd50352a1f83a94c3a81748c548b7badecd3004d83e9b17a1f0096",
     "analysis/run_analysis.py": "1fbd8bae9b7819a34ebfdebf2f20935285c59fd8ccf5f030beec64d881bb2791",
-    "analysis/sync_local.py": "835898e66fcc3a262a70a7e4748039493127f71f7a255270c6f62bb9312de9ca",
+    "analysis/sync_local.py": "eb2f72b9f04b722007e8bd0ba50244269a13bf44a7e8dfa1614933465be31bc9",
     "analysis/validate_artifacts.py": "5020bbe0a3846d685ae7b9f76041b790f28d96213185e898ca02c924092d4985",
-    "data/derived/ARTIFACT_CHECKS.json": "e99a55fc021040fba00fbbbea7e9b77b0caf2becd7008ac60a9c983c38dc948a",
+    "data/derived/ARTIFACT_CHECKS.json": "cf8829de5c1728ae3b453d02d3953b11c3b29e7804ed54a0b777ef14bf727f24",
     "data/derived/CHECKS.json": "15cd8c90278153e4d0566c749664f97cab9d5998f6ce6eaba64f1494d7360c1c",
     "data/derived/data_inventory.csv": "3f88019a9bdbd5fae5a60c18ca96fc477ae7b815a6146af832889fcf36369683",
     "data/derived/REGISTER_SUMMARY.json": "056eccbffc8b257ddda862501cc6f51e342fead226ea61e8a143b48ea45900c0",
@@ -86,6 +87,6 @@
     "data/raw/tether_june2026_p9.png": "1c19e9f5321854f7d989d70e38900e498f170cc1380beb244e7dbd2ee9fae7dd",
     "data/raw/x402_commit.json": "7624c666352ecb7f576efec3df292a5793c03a8d6ba6d07ea21a7f2796f6a154"
   },
-  "git_commit": "NOT_CREATED",
-  "remote_status": "NOT_PUSHED"
+  "git_scope": "COPY_ONLY; see Git history and RESEARCH_RETURN_PACKET.md for commit state",
+  "remote_status": "NOT_CHECKED_BY_COPY_TOOL"
 }

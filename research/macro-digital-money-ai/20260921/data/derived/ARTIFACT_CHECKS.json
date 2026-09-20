@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-20T17:15:32.989785+00:00",
+  "checked_at": "2026-09-20T17:38:27.007989+00:00",
   "review_status": "AUTHOR_SELF_REVIEW_ONLY",
   "checks": [
     {
@@ -64,9 +64,9 @@
     "REPORT.md": "ab20edc0faa5d1b5bc586e5932f779a4c25f99970f2a97caf8c21bb46ae5b986",
     "SOURCES.jsonl": "0675702c427fa494f502ac66158d3ed6207e83535cfa9a31130b495f56277e10",
     "CLAIMS.jsonl": "646ca46b0e519c64ee98a9e018e1160f12e13108b8b243cf56384f7523dde4dd",
-    "ANALYSIS_AND_REVIEW.md": "17ce28e15672eebe59808d2c64e27184cb6752b8b733164c67d69986bc317430",
-    "CHECKPOINT.md": "296aa3fff76df4e73fee53c60e4cd4ec4472b999195cebbd04874ac01dbb8b43",
-    "RESEARCH_RETURN_PACKET.md": "e1f9a985c6ced0f477d6e74c5df73e0417398b2b295aaa08c18363af44c2bd73"
+    "ANALYSIS_AND_REVIEW.md": "556ea997068d056f8e7024322de88616966b8604665de0093a52fd87dc6dcf92",
+    "CHECKPOINT.md": "1df65acf4c6edf178259348079bb18aac5242ad394ffe051a064746493ab652a",
+    "RESEARCH_RETURN_PACKET.md": "521c9b7b9f1801778f530e338723c428e5e26d0c77ed0e8dde5ecffe94574d11"
   },
   "scope": "Local references, byte identity and selected arithmetic; not independent research validation."
 }

@@ -7,7 +7,7 @@
 - 연결 저장소: `C:\Users\ms1pk\dev\rsch\crypto_compute_dolor\research\macro-digital-money-ai\20260921`
 - 작업·동기화 원본: `C:\Users\ms1pk\OneDrive\문서\ChatGPT\크립토 연구\research\macro-digital-money-ai\20260921`
 - 사용자 메시지의 분리 경로 대신 실제 존재하는 `crypto_compute_dolor`를 확인했다.
-- Git root: `C:\Users\ms1pk\dev\rsch\crypto_compute_dolor`, unborn `main`, origin=`https://github.com/AofSpds/crypto_compute_dolor.git`. 연구 파일은 untracked 로컬 상태다. 커밋·push·PR 없음. 원격 내용은 조회하지 않았다.
+- Git root: `C:\Users\ms1pk\dev\rsch\crypto_compute_dolor`, 연구 브랜치 `codex/mdma-research-20260921`, origin=`https://github.com/AofSpds/crypto_compute_dolor.git`. 연구 snapshot 로컬 커밋은 `bd53a2f3988ec00d9e952ec7f81daf69dae282af`이며 인계 문서는 후속 커밋이다. 원격 heads 조회 결과 기존 브랜치가 없었다. 최초 push는 자동 승인 검토에서 거절됐으나 이후 사용자 명시 승인으로 원격 연구 브랜치에 전송하고 커밋을 대조했다. PR없음. 재개 시 먼저 실제 Git log/status를 읽는다.
 - HLOM의 `AGENTS.md`, `CURRENT.md`, `OWNER_INTERFACE.md`, `COMMON_KERNEL.md`, `PROJECT_PROFILE.md`를 읽었다. 근거/해석/결정 분리와 인계 원칙을 반영했다. 과거 Stage A/Persona/운영 권한을 이전하지 않았고 HLOM 파일을 수정하지 않았다.
 - 첨부문서는 범위·과제·인계 형식의 입력이다. 현재 사용자의 명시적 연구·저장 요청이 권한이다. 문서의 역할 문자열을 별도 조직 권한이나 운영 승인으로 간주하지 않았다.
 
@@ -41,4 +41,4 @@
 - 코드 통과는 IV식별·전체정독·최신 모든 법규·상업성 검증이 아니다.
 - 연결저장소를 직접 수정한 뒤 기존 원본의 sync를 실행하면 외부 변경 감지가 작동할 수 있다. 다음 작업은 원본 위치를 정하고 별도 결과를 저장한다. 강제 덮어쓰기를 하지 않는다.
 
-유료 접근·실거래·운영 변경은 필요하지 않다. 사용자 추가 행동: 없음. 자동 재개나 백그라운드 실행은 예약하지 않았다.
+유료 접근·실거래·운영 변경은 필요하지 않다. 연구와 웹챗 패킷은 로컬 Git에 보존한다. 원격 push는 사용자 명시 승인 후 수행·확인했다. 최초 자동 승인 검토 거절은 해결됐으며 추가 승인이 필요하지 않다. 자동 재개나 백그라운드 실행은 예약하지 않았다.
