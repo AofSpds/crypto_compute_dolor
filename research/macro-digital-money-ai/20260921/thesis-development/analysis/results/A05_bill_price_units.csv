@@ -1,0 +1,5 @@
+decrease_bp,face_USD,remaining_days,price_increase_USD,price_increase_cents
+1,100,90,0.0025,0.25
+4,100,90,0.01,1.0
+5,100,90,0.0125,1.25
+10,100,90,0.025,2.5

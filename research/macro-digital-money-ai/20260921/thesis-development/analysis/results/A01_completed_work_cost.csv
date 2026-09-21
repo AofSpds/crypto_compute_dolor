@@ -1,0 +1,10 @@
+task_class,mode,attempted,accepted,setup_allocated,human_opportunity,tools_payment,verification_rework,residual_loss,total_KRW,KRW_per_accepted,completion_fraction,meets_floor
+structured,human,100,95,0,480000,0,15000,5000,500000,5263.1578947368425,0.95,True
+structured,deterministic,100,99,30000,10000,10000,8000,2000,60000,606.060606060606,0.99,True
+structured,llm_assist,100,95,20000,40000,10000,25000,5000,100000,1052.6315789473683,0.95,True
+structured,agent,100,98,30000,15000,10000,25000,5000,85000,867.3469387755102,0.98,True
+context_rich,human,100,95,0,480000,0,15000,5000,500000,5263.1578947368425,0.95,True
+context_rich,deterministic,100,40,30000,10000,10000,8000,2000,60000,1500.0,0.4,False
+context_rich,llm_assist,100,90,20000,80000,10000,40000,10000,160000,1777.7777777777778,0.9,True
+context_rich,agent_unchecked,100,30,30000,40000,10000,20000,80000,180000,6000.0,0.3,False
+context_rich,agent_reviewed,100,94,30000,60000,10000,80000,10000,190000,2021.276595744681,0.94,True

@@ -1,0 +1,83 @@
+{
+  "classification": "SYNTHETIC_ILLUSTRATIONS_NOT_EMPIRICAL_ESTIMATES",
+  "input_sha256": "7a22e43b8d072b6a9b13343091dd2ef1b3ee357b42f2a5cedccc4b123665b17b",
+  "minimum_attempts_for_positive_private_entry": 12,
+  "intraday": {
+    "gross_units": 180,
+    "net_end_positions": {
+      "A": 0,
+      "B": 0
+    },
+    "initial_cash_needed_in_fixed_gross_order": {
+      "A": 90,
+      "B": 0
+    },
+    "deferred_end_net_cash": 0,
+    "unsecured_exposure_possible_before_netting": 90
+  },
+  "checks": [
+    {
+      "name": "open_agent_can_cost_more_than_human_per_accepted",
+      "passed": true
+    },
+    {
+      "name": "deterministic_wins_structured_example",
+      "passed": true
+    },
+    {
+      "name": "cheap_but_incomplete_is_ineligible",
+      "passed": true
+    },
+    {
+      "name": "positive_private_entry_at_12_not_10",
+      "passed": true
+    },
+    {
+      "name": "flow_tripling_can_coexist_with_balance_falling",
+      "passed": true
+    },
+    {
+      "name": "buffer_can_reverse_result",
+      "passed": true
+    },
+    {
+      "name": "inventory_minimum_fee_100",
+      "passed": true
+    },
+    {
+      "name": "inventory_minimum_fee_10000",
+      "passed": true
+    },
+    {
+      "name": "gross_net_liquidity_not_equivalent",
+      "passed": true
+    },
+    {
+      "name": "bill_difference_1bp",
+      "passed": true
+    },
+    {
+      "name": "bill_difference_4bp",
+      "passed": true
+    },
+    {
+      "name": "bill_difference_5bp",
+      "passed": true
+    },
+    {
+      "name": "bill_difference_10bp",
+      "passed": true
+    },
+    {
+      "name": "footnote_dollar_conversion_factor_100",
+      "passed": true
+    },
+    {
+      "name": "volume_triples_profit_can_fall",
+      "passed": true
+    }
+  ],
+  "passed": 15,
+  "causal_regression_replications": 0,
+  "live_payments": 0
+}

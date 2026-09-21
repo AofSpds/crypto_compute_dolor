@@ -1,0 +1,4 @@
+case,completed_units,price,variable_cost,fixed_cost,operating_profit
+before,100,10,6,200,200
+competitive_scale,300,4,3,250,50
+scarce_complement,300,7,3,250,950

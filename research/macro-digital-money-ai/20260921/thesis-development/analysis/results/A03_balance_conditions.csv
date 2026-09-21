@@ -1,0 +1,6 @@
+case,gross_flow_KRW_per_day,prefunded_settlement_share,reuse_days,buffer_KRW,average_locked_KRW,locked_plus_buffer_KRW
+baseline,100000000,1,1,0,100000000,100000000
+faster_reuse_more_flow,300000000,1,0.1,0,30000000.0,30000000.0
+buffer_offsets_speed,300000000,1,0.1,90000000,30000000.0,120000000.0
+netted,300000000,0.1,0.1,0,3000000.0,3000000.0
+ramp_delay,300000000,1,2,0,600000000,600000000

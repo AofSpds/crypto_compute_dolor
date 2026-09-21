@@ -1,0 +1,31 @@
+{
+  "classification": "SYNTHETIC_ILLUSTRATIONS_NOT_EMPIRICAL_ESTIMATES",
+  "cost_units": "KRW; 100 attempted tasks in each row; mutually exclusive cost components",
+  "cost_cases": [
+    ["structured", "human", 100, 95, 0, 480000, 0, 15000, 5000],
+    ["structured", "deterministic", 100, 99, 30000, 10000, 10000, 8000, 2000],
+    ["structured", "llm_assist", 100, 95, 20000, 40000, 10000, 25000, 5000],
+    ["structured", "agent", 100, 98, 30000, 15000, 10000, 25000, 5000],
+    ["context_rich", "human", 100, 95, 0, 480000, 0, 15000, 5000],
+    ["context_rich", "deterministic", 100, 40, 30000, 10000, 10000, 8000, 2000],
+    ["context_rich", "llm_assist", 100, 90, 20000, 80000, 10000, 40000, 10000],
+    ["context_rich", "agent_unchecked", 100, 30, 30000, 40000, 10000, 20000, 80000],
+    ["context_rich", "agent_reviewed", 100, 94, 30000, 60000, 10000, 80000, 10000]
+  ],
+  "cost_columns": ["task_class", "mode", "attempted", "accepted", "setup_allocated", "human_opportunity", "tools_payment", "verification_rework", "residual_loss"],
+  "minimum_completion_fraction": 0.9,
+  "entry_example": {"fixed_KRW": 30000, "variable_KRW_per_attempt": 1000, "pass_fraction": 0.9, "buyer_value_KRW_per_accepted": 4000, "attempts": [5, 10, 12, 20, 100]},
+  "balance_units": "KRW/day gross eligible flow; fraction is externally prefunded settlement share; days until economic reuse; KRW buffer",
+  "balance_cases": [
+    ["baseline", 100000000, 1, 1, 0],
+    ["faster_reuse_more_flow", 300000000, 1, 0.1, 0],
+    ["buffer_offsets_speed", 300000000, 1, 0.1, 90000000],
+    ["netted", 300000000, 0.1, 0.1, 0],
+    ["ramp_delay", 300000000, 1, 2, 0]
+  ],
+  "cash_inventory": {"period": "year", "annual_flow_KRW": 100000000, "refill_cost_KRW": [100, 10000], "annual_opportunity_rate": 0.05},
+  "intraday_events": [[9, "A", "B", 90], [10, "B", "A", 90]],
+  "bill_check": {"face_USD": 100, "days": 90, "day_count": 360, "discount_rate_decrease_bp": [1, 4, 5, 10], "baseline_discount_rate": 0.04},
+  "value_capture_cases": [["before", 100, 10, 6, 200], ["competitive_scale", 300, 4, 3, 250], ["scarce_complement", 300, 7, 3, 250]],
+  "value_capture_columns": ["case", "completed_units", "price", "variable_cost", "fixed_cost"]
+}

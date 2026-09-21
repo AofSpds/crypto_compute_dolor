@@ -1,0 +1,64 @@
+{
+  "review_status": "AUTHOR_SELF_REVIEW_ONLY",
+  "checks": [
+    {
+      "name": "all_14_received_inputs_unchanged",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "six_external_payloads_match_supplied_manifest",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "baseline_git_commit_A_equals_attachment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "required_documents_and_local_links_exist",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "P01_to_P10_mapping_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_hold_ids_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fifteen_calculation_checks_pass",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "analysis_input_hash_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_footnote_dollar_phrasing_in_prior_outputs",
+      "passed": true,
+      "detail": {
+        "searched_files": 41,
+        "patterns": [
+          "quarter cent",
+          "\\$0\\.25 per",
+          "\\$1[–-]1\\.25",
+          "\\$2\\.5 per",
+          "\\$1[–-]1\\.25 per"
+        ],
+        "hits": [],
+        "limit": "Exact/near-text search, not proof against all paraphrases. Raw source PDF/text excluded; thesis subtree excluded."
+      }
+    }
+  ],
+  "passed": 9,
+  "total": 9,
+  "scope": "Artifact consistency; not independent review, causal identification or full regression reproduction."
+}

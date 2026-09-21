@@ -1,0 +1,368 @@
+{
+  "completed_utc": "2026-09-21T16:13:36.837998+00:00",
+  "source": "C:\\Users\\ms1pk\\OneDrive\\문서\\ChatGPT\\크립토 연구\\research\\macro-digital-money-ai\\20260921\\thesis-development",
+  "destination": "C:\\Users\\ms1pk\\dev\\rsch\\crypto_compute_dolor\\research\\macro-digital-money-ai\\20260921\\thesis-development",
+  "protected_inputs_unchanged": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "5e9c7dfd5925625fde9f7f5d41b39956f11be0526aefdfb0417f08e713592e40",
+      "bytes": 36,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "analysis/acquire_sources.py",
+      "sha256": "0e2d1fa5af22f07515f53f6485062d6e74ff6281ebf9f4d168b2f6bc8c11120b",
+      "bytes": 4088,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "analysis/ingest_inputs.py",
+      "sha256": "d14176b0a490a008c5ca96e17c218e61e9065d49057f178fa6661ca76fb8f9c2",
+      "bytes": 2595,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "analysis/inputs.json",
+      "sha256": "7a22e43b8d072b6a9b13343091dd2ef1b3ee357b42f2a5cedccc4b123665b17b",
+      "bytes": 2214,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "analysis/inspect_pdf.py",
+      "sha256": "d144596063d4f06409dc962b8e558cc0384cd58b02650f5f34e7fe972bd0a4cd",
+      "bytes": 719,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "analysis/README.md",
+      "sha256": "4dfe7b891f2d615b6ecf53b9f5baee9bca71a8485a548e6502f452ca76a2bf80",
+      "bytes": 2313,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "analysis/results/A01_completed_work_cost.csv",
+      "sha256": "43a67cb001e94b9819706133003a1c8681d98ff4ebc31387ec366a0ae0a27a45",
+      "bytes": 997,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "analysis/results/A02_entry_threshold.csv",
+      "sha256": "a8a1002c7690777121614e54b87a253534a33310d17b6d70acabc66c381fbb01",
+      "bytes": 303,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "analysis/results/A03_balance_conditions.csv",
+      "sha256": "fa260ced90205c1eb68d498ac334a65117477c8c1a645e67ebb0cf2001ca385a",
+      "bytes": 396,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "analysis/results/A04_inventory_model.csv",
+      "sha256": "07b67194358023f40c720ad3de991cf3345755fdb2511e459783fd31e6e7aaf5",
+      "bytes": 271,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "analysis/results/A05_bill_price_units.csv",
+      "sha256": "adf913de2a0fa3a389e7530b7c38caee07a90948b124197d4552bb1e524fd891",
+      "bytes": 161,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "analysis/results/A06_value_capture.csv",
+      "sha256": "df4fff0506763f28af9ee6b1704d784d0102896efd224748a18321ad385c4313",
+      "bytes": 164,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "analysis/results/ARTIFACT_CHECKS.json",
+      "sha256": "4f9dddc7af7cde4b17b31124f248897108d441944f8f7ce3daf546585659740a",
+      "bytes": 1545,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "analysis/results/RESULTS.json",
+      "sha256": "33c1cdba5151deace791a48d70b215040f22b7c9e054885bc03071e18a053d1a",
+      "bytes": 1819,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "analysis/run_analysis.py",
+      "sha256": "02c47beadfe657d39cc434fe66d360758615be22718d693d1ce643e3b332c89a",
+      "bytes": 5381,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "analysis/sync_thesis.py",
+      "sha256": "f26b57669809cec690924987b5d7289ed976f67d1b3ba43bd9302d60a0890e83",
+      "bytes": 1760,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "analysis/validate_artifacts.py",
+      "sha256": "4010bfac119b07669e8b7a391ee3d2e493fe7a96ca92e1dbed2ee010760f33e1",
+      "bytes": 3595,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "ARGUMENT_EVIDENCE.md",
+      "sha256": "a5ff488a15c0f60d25b3d5122f5a13baf1a86f294622e365adde16fe427f8ab8",
+      "bytes": 28565,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "BASELINE_CITATION_SEEDS.json",
+      "sha256": "7bf7dfb957c42cc3d165e2b339226d60ad495a1722fea568be821bf8eee3ec16",
+      "bytes": 11735,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "CODEX_WORK_REQUEST_v1.0_20260921.md",
+      "sha256": "751e85ae74c457e46478ee9499cf68c6bf87512d1a449da2a566fe43acaedc33",
+      "bytes": 29032,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "evidence/DOWNLOAD_MANIFEST.json",
+      "sha256": "3f99da91abc4abec2161e0bd321512442a7b6974f210e3fc8741487bd3fbdc34",
+      "bytes": 7878,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "evidence/raw/inspection/bis1270_june2026_p36.png",
+      "sha256": "2de2389ac3cc3e266039e9915290d3ba3b444ae53ed4a8c9e3bbd5d1b51e75d4",
+      "bytes": 304826,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/inspection/N03_holmstrom_p1.png",
+      "sha256": "01d9093f350bcf9b6c52f2e5812b83129cba66d0e29e32c64cbc998fa867fcfa",
+      "bytes": 574193,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/inspection/N03_holmstrom_p2.png",
+      "sha256": "7b089bd74eaaf566243bf5744eaf0960c864e5f8cbca1b690a4b2adfeae297a9",
+      "bytes": 1015464,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/inspection/N03_holmstrom_p3.png",
+      "sha256": "436044bd63374b91d7e44a798062979fa10e9d74e6ec8200647a49090fb7da4a",
+      "bytes": 909789,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/inspection/N11_jagged_p12.png",
+      "sha256": "140df9016d2269499a36abe27f67a04ad4a63ea176f1ad330bd4612b219b8b5c",
+      "bytes": 570642,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/N02_williamson.pdf",
+      "sha256": "3ed57fce24ca8172901f7679de3049ec56513a93c52212a997a79eb654148a50",
+      "bytes": 1414562,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/N02_williamson.txt",
+      "sha256": "1687acb4d8caeda8be11d5ec7c43520600253fe27258fc8555f9066acd8f338d",
+      "bytes": 72863,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/N03_holmstrom.pdf",
+      "sha256": "3f02e533d3fdff61dca5ffab381c56710e23a4b222409b7825f526da8190fc71",
+      "bytes": 320059,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/N03_holmstrom.txt",
+      "sha256": "954f23ed0da3f7316fb636b8bd920ea3b145a5276296c1be34152632095fdb0c",
+      "bytes": 320,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/N04_jcurve.pdf",
+      "sha256": "8dd1bc737a5ea9a761344bc3e65a6ea773a18239d800698d693274ad7b043ff4",
+      "bytes": 689743,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/N04_jcurve.txt",
+      "sha256": "642581773c48ec4ca3ea760b617de8e015f6d4690c44784c7e55c8a50c4334c2",
+      "bytes": 115188,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/N05_baumol.pdf",
+      "sha256": "eab815b850c3c3382f13357f61b0b98eb4b4d24fc6aad21292d234b3e179b39b",
+      "bytes": 274537,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/N05_baumol.txt",
+      "sha256": "97056976a423494a46fc3fb8087029accffb6a001ba87eb53e9e859245d4be43",
+      "bytes": 7059,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/N06_teece.pdf",
+      "sha256": "f123bebe08fa03a9d4fd50c4e3b2497e9cedacf9106512f7cd41c6bb19f9d1db",
+      "bytes": 470170,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/N06_teece.txt",
+      "sha256": "aedb9d13482b54ae199f000768013fb985356ea3d4e376edf03b924651cf44aa",
+      "bytes": 80827,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/N08_bis170.pdf",
+      "sha256": "afecb037c60d1fd0d2e7ac361d1640d6ccabc9aacca9527b570d01f889c27215",
+      "bytes": 1476386,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/N08_bis170.txt",
+      "sha256": "1c535ea9b83d4a2095b06773b033c66519c4384c23738da89719d51c21d4c185",
+      "bytes": 105056,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/N09_fed_payments.html",
+      "sha256": "c05c159bf8bf187fe75c4a94ca0d012046969b1dfe05fcb1024c3a883c2a25b1",
+      "bytes": 118827,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/N10_fed_dollar.html",
+      "sha256": "8ddc85f389f41eff0100a6ecb79e864401b6738edaa01403a1c6210377293f22",
+      "bytes": 96184,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/N11_jagged.pdf",
+      "sha256": "433c4d57cb9a4e60869594b1b8e701d71b57d092abb053ce88be42ae1aed00ce",
+      "bytes": 3170127,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/N11_jagged.txt",
+      "sha256": "93cca6c643e463a55171822f6e8ac4c0efd5b659a9b57445b8dea059d8dd071c",
+      "bytes": 116440,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/N12_treasurydirect.html",
+      "sha256": "018801e4941a7304579a82cd9f77c92b18959f3f653747242ab1828e8f02f1a9",
+      "bytes": 31909,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/N13_fastpayments.html",
+      "sha256": "4db2e537323e6dbe91b5a8d6c43872ac47f38644087fe8acf32e3039eb385a2d",
+      "bytes": 160772,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "evidence/raw/S08_bis2025.html",
+      "sha256": "8acae3a6ec6c0eac428a60e61f4b7393a6c870c3cd68c4c3eb11893f7dec21e9",
+      "bytes": 267747,
+      "git_raw_excluded": true
+    },
+    {
+      "path": "INGEST_RECEIPT.json",
+      "sha256": "e263011fc57272ced5675517bbaa4df9a702bb1efe39c74f853608c9ca55af48",
+      "bytes": 3032,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "INPUT_PROVENANCE.json",
+      "sha256": "187bb614ab185685bde719bd1aaf91384871166ae7e9c516d1c3bd1cdac9e39f",
+      "bytes": 2809,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "inputs/external-review/ARITHMETIC_RESULTS.json",
+      "sha256": "a32a0a4c5312849c9ee0bdcbc424941a4c56e35a2531a13f812acf0c2624fcfb",
+      "bytes": 5557,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "inputs/external-review/FINDINGS.json",
+      "sha256": "80b9eb3ac0bc24d667be15ad29541faab9e7946ec4da783ed7424a654d64a682",
+      "bytes": 2847,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "inputs/external-review/INDEPENDENT_EXTERNAL_REVIEW.md",
+      "sha256": "78cb64be6597850115b8abcec9dad09a18594c0712659627a27caa569d0a18a6",
+      "bytes": 35435,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "inputs/external-review/MANIFEST.json",
+      "sha256": "1636d408edd856b3dfe7a1b28aa472afd6a720c3004ed34c881b88e9d98ceec6",
+      "bytes": 1088,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "inputs/external-review/RESEARCH_RETURN_PACKET.md",
+      "sha256": "899a1cbd35504af1eb23f890183e1da332fcfb6708bf7dfd0248369036961f7e",
+      "bytes": 5236,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "inputs/external-review/SOURCES_REVIEWED.json",
+      "sha256": "570852874c6edd5a37ab41bf166a32d8fa33d2a5867952026b4cf23b74a3d14e",
+      "bytes": 13480,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "inputs/external-review/verify_arithmetic.py",
+      "sha256": "f9b108b83f86e4da04262aa596da160bc64925ebb59304fadd29db5d2d44decb",
+      "bytes": 5533,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "inputs/received/MDMA_THESIS_BASELINE_v1.0_20260921.md",
+      "sha256": "8f1fa519e496182d5a168926dc879be0909d6eba3af61eed4c472fe610083325",
+      "bytes": 25137,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "inputs/received/MDMA_THESIS_CODEX_WORK_HANDOFF_v1.0_20260921.md",
+      "sha256": "798c1d6c71e02690efa547ddd8d86749af65da2a7a5a7be9c4bf8846c2581d6d",
+      "bytes": 144214,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "RESEARCH_RETURN_PACKET.md",
+      "sha256": "d57179db4b3d722981701293cfd0e818392d788f1150de3b72e233bb19b61afa",
+      "bytes": 10363,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "START_CODEX.txt",
+      "sha256": "b81e43ef30061c44638098fdbf96cba3874119ec4ca4e479619d230850feaeed",
+      "bytes": 1577,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "THESIS_BASELINE_v1.0_20260921.md",
+      "sha256": "8f1fa519e496182d5a168926dc879be0909d6eba3af61eed4c472fe610083325",
+      "bytes": 25137,
+      "git_raw_excluded": false
+    },
+    {
+      "path": "THESIS_v1.1.md",
+      "sha256": "37f733fedc8a6fea2a6c5a2a4124005f2247f9a32ef04a008e39a75a09f60b66",
+      "bytes": 37572,
+      "git_raw_excluded": false
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "N01",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1468-0335.1937.tb00002.x",
+    "accessed_utc": "2026-09-21T15:04:41.383539+00:00",
+    "status": "ACCESS_FAILED",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "N02",
+    "url": "https://www.nobelprize.org/uploads/2018/06/williamson_lecture.pdf",
+    "accessed_utc": "2026-09-21T15:04:41.384539+00:00",
+    "final_url": "https://www.nobelprize.org/uploads/2018/06/williamson_lecture.pdf",
+    "content_type": "application/pdf",
+    "status": "SNAPSHOT_ACQUIRED_NOT_AUTOMATICALLY_READ",
+    "path": "evidence/raw/N02_williamson.pdf",
+    "bytes": 1414562,
+    "sha256": "3ed57fce24ca8172901f7679de3049ec56513a93c52212a997a79eb654148a50",
+    "pages": 22
+  },
+  {
+    "id": "N03",
+    "url": "https://web.stanford.edu/~milgrom/publishedarticles/Multitask%20Principal%20Agent.pdf",
+    "accessed_utc": "2026-09-21T15:04:41.385542+00:00",
+    "final_url": "https://web.stanford.edu/~milgrom/publishedarticles/Multitask%20Principal%20Agent.pdf",
+    "content_type": "application/pdf",
+    "status": "SNAPSHOT_ACQUIRED_NOT_AUTOMATICALLY_READ",
+    "path": "evidence/raw/N03_holmstrom.pdf",
+    "bytes": 320059,
+    "sha256": "3f02e533d3fdff61dca5ffab381c56710e23a4b222409b7825f526da8190fc71",
+    "pages": 15
+  },
+  {
+    "id": "N04",
+    "url": "https://conference.nber.org/confer/2020/YSAIf20/EB2.pdf",
+    "accessed_utc": "2026-09-21T15:04:41.385542+00:00",
+    "final_url": "https://conference.nber.org/confer/2020/YSAIf20/EB2.pdf",
+    "content_type": "application/pdf",
+    "status": "SNAPSHOT_ACQUIRED_NOT_AUTOMATICALLY_READ",
+    "path": "evidence/raw/N04_jcurve.pdf",
+    "bytes": 689743,
+    "sha256": "8dd1bc737a5ea9a761344bc3e65a6ea773a18239d800698d693274ad7b043ff4",
+    "pages": 55
+  },
+  {
+    "id": "N05",
+    "url": "https://karlshell.com/wp-content/uploads/2016/02/The-Transactions-Demand-for-Cash-An-Inventory-Theoretic-Approach.pdf",
+    "accessed_utc": "2026-09-21T15:04:41.386540+00:00",
+    "final_url": "https://karlshell.com/wp-content/uploads/2016/02/The-Transactions-Demand-for-Cash-An-Inventory-Theoretic-Approach.pdf",
+    "content_type": "application/pdf",
+    "status": "SNAPSHOT_ACQUIRED_NOT_AUTOMATICALLY_READ",
+    "path": "evidence/raw/N05_baumol.pdf",
+    "bytes": 274537,
+    "sha256": "eab815b850c3c3382f13357f61b0b98eb4b4d24fc6aad21292d234b3e179b39b",
+    "pages": 17
+  },
+  {
+    "id": "N06",
+    "url": "https://www.edegan.com/pdfs/Teece%20%281986%29%20-%20Profiting%20From%20Technological%20Innovation%20Implications%20For%20Integration%20Collaboration%20Licensing%20And%20Public%20Policy.pdf",
+    "accessed_utc": "2026-09-21T15:04:41.386540+00:00",
+    "final_url": "https://www.edegan.com/pdfs/Teece%20%281986%29%20-%20Profiting%20From%20Technological%20Innovation%20Implications%20For%20Integration%20Collaboration%20Licensing%20And%20Public%20Policy.pdf",
+    "content_type": "application/pdf",
+    "status": "SNAPSHOT_ACQUIRED_NOT_AUTOMATICALLY_READ",
+    "path": "evidence/raw/N06_teece.pdf",
+    "bytes": 470170,
+    "sha256": "f123bebe08fa03a9d4fd50c4e3b2497e9cedacf9106512f7cd41c6bb19f9d1db",
+    "pages": 21
+  },
+  {
+    "id": "N07",
+    "url": "https://www.imf.org/-/media/files/publications/wp/2025/english/wpiea2025178-source-pdf.pdf",
+    "accessed_utc": "2026-09-21T15:04:41.578579+00:00",
+    "status": "ACCESS_FAILED",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "N08",
+    "url": "https://www.bis.org/publications/paper-170-impact-stablecoins-international-monetary-and-financial-system.pdf",
+    "accessed_utc": "2026-09-21T15:04:41.683654+00:00",
+    "final_url": "https://www.bis.org/publications/paper-170-impact-stablecoins-international-monetary-and-financial-system.pdf",
+    "content_type": "application/pdf",
+    "status": "SNAPSHOT_ACQUIRED_NOT_AUTOMATICALLY_READ",
+    "path": "evidence/raw/N08_bis170.pdf",
+    "bytes": 1476386,
+    "sha256": "afecb037c60d1fd0d2e7ac361d1640d6ccabc9aacca9527b570d01f889c27215",
+    "pages": 33
+  },
+  {
+    "id": "N09",
+    "url": "https://www.federalreserve.gov/econres/notes/feds-notes/payment-stablecoins-and-cross-border-payments-benefits-and-implications-for-monetary-policy-20260330.html",
+    "accessed_utc": "2026-09-21T15:04:42.649815+00:00",
+    "final_url": "https://www.federalreserve.gov/econres/notes/feds-notes/payment-stablecoins-and-cross-border-payments-benefits-and-implications-for-monetary-policy-20260330.html",
+    "content_type": "text/html",
+    "status": "SNAPSHOT_ACQUIRED_NOT_AUTOMATICALLY_READ",
+    "path": "evidence/raw/N09_fed_payments.html",
+    "bytes": 118827,
+    "sha256": "c05c159bf8bf187fe75c4a94ca0d012046969b1dfe05fcb1024c3a883c2a25b1"
+  },
+  {
+    "id": "N10",
+    "url": "https://www.federalreserve.gov/econres/notes/feds-notes/fifth-conference-on-the-international-roles-of-the-u-s-dollar-stablecoins-digital-payments-and-the-ir-of-the-usd-20260716.html",
+    "accessed_utc": "2026-09-21T15:04:43.323684+00:00",
+    "final_url": "https://www.federalreserve.gov/econres/notes/feds-notes/fifth-conference-on-the-international-roles-of-the-u-s-dollar-stablecoins-digital-payments-and-the-ir-of-the-usd-20260716.html",
+    "content_type": "text/html",
+    "status": "SNAPSHOT_ACQUIRED_NOT_AUTOMATICALLY_READ",
+    "path": "evidence/raw/N10_fed_dollar.html",
+    "bytes": 96184,
+    "sha256": "8ddc85f389f41eff0100a6ecb79e864401b6738edaa01403a1c6210377293f22"
+  },
+  {
+    "id": "N11",
+    "url": "https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf",
+    "accessed_utc": "2026-09-21T15:04:43.341683+00:00",
+    "final_url": "https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf",
+    "content_type": "application/pdf;charset=utf-8",
+    "status": "SNAPSHOT_ACQUIRED_NOT_AUTOMATICALLY_READ",
+    "path": "evidence/raw/N11_jagged.pdf",
+    "bytes": 3170127,
+    "sha256": "433c4d57cb9a4e60869594b1b8e701d71b57d092abb053ce88be42ae1aed00ce",
+    "pages": 22
+  },
+  {
+    "id": "N12",
+    "url": "https://www.treasurydirect.gov/marketable-securities/understanding-pricing/",
+    "accessed_utc": "2026-09-21T15:04:43.426201+00:00",
+    "final_url": "https://www.treasurydirect.gov/marketable-securities/understanding-pricing/",
+    "content_type": "text/html",
+    "status": "SNAPSHOT_ACQUIRED_NOT_AUTOMATICALLY_READ",
+    "path": "evidence/raw/N12_treasurydirect.html",
+    "bytes": 31909,
+    "sha256": "018801e4941a7304579a82cd9f77c92b18959f3f653747242ab1828e8f02f1a9"
+  },
+  {
+    "id": "S08",
+    "url": "https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system",
+    "accessed_utc": "2026-09-21T15:04:43.431203+00:00",
+    "final_url": "https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system",
+    "content_type": "text/html; charset=utf-8",
+    "status": "SNAPSHOT_ACQUIRED_NOT_AUTOMATICALLY_READ",
+    "path": "evidence/raw/S08_bis2025.html",
+    "bytes": 267747,
+    "sha256": "8acae3a6ec6c0eac428a60e61f4b7393a6c870c3cd68c4c3eb11893f7dec21e9"
+  },
+  {
+    "id": "N13",
+    "url": "https://www.bis.org/publications/quest-speed-payments",
+    "accessed_utc": "2026-09-21T15:55:45.210591+00:00",
+    "final_url": "https://www.bis.org/publications/quest-speed-payments",
+    "content_type": "text/html; charset=utf-8",
+    "status": "SNAPSHOT_ACQUIRED_NOT_AUTOMATICALLY_READ",
+    "path": "evidence/raw/N13_fastpayments.html",
+    "bytes": 160772,
+    "sha256": "4db2e537323e6dbe91b5a8d6c43872ac47f38644087fe8acf32e3039eb385a2d"
+  },
+  {
+    "id": "N14",
+    "url": "https://pages.stern.nyu.edu/~wbaumol/CommunicationTheOptimalCash.pdf",
+    "accessed_utc": "2026-09-21T15:55:45.212084+00:00",
+    "status": "ACCESS_FAILED",
+    "error": "HTTP Error 404: Not Found"
+  }
+]
