@@ -1,0 +1,252 @@
+{
+  "source_record_count": 24,
+  "not_equivalent_to_full_papers_read": true,
+  "not_the_original_68_record_ledger": true,
+  "sources": [
+    {
+      "id": "R01",
+      "title": "Stablecoins and safe asset prices — BIS Working Paper 1270, June 2026 revision",
+      "url": "https://www.bis.org/publications/working-paper-1270-stablecoins-and-safe-asset-prices.pdf",
+      "accessed_on": "2026-09-21",
+      "access_depth": "SELECTED_METHODS_RESULTS_LIMITATIONS_AND_TABLES_VISUALLY_CHECKED",
+      "limitations": "54-page PDF; selected methods/results, table 2, projections, limitations. PDF page index35 = printed34, footnote38 visually checked. Not full regression replication. Price-unit error isolated from yield coefficients.",
+      "raw_file_preserved_here": false,
+      "source_hash": null
+    },
+    {
+      "id": "R02",
+      "title": "Stablecoin Shocks — IMF Working Paper 2026/044, March 2026",
+      "url": "https://www.imf.org/-/media/files/publications/wp/2026/english/wpiea2026044-source-pdf.pdf",
+      "accessed_on": "2026-09-21",
+      "access_depth": "SELECTED_METHODS_RESULTS_AND_TABLES_VISUALLY_CHECKED",
+      "limitations": "Event selection, heteroskedasticity identification, impact table, dynamic figures, robustness sections. No original regression code/data executed.",
+      "raw_file_preserved_here": false,
+      "source_hash": null
+    },
+    {
+      "id": "R03",
+      "title": "Circle USDC reserve examination, June 2026",
+      "url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20June%2026.pdf",
+      "accessed_on": "2026-09-21",
+      "access_depth": "PDF_RESERVE_TABLE_VISUALLY_CHECKED",
+      "limitations": "June30 table, PDF page index3; denominator is total USDC reserves. Point-in-time reserve examination, not full-company audit.",
+      "raw_file_preserved_here": false,
+      "source_hash": null
+    },
+    {
+      "id": "R04",
+      "title": "BDO report: Tether International Financial Figures, June30 2026",
+      "url": "https://assets.ctfassets.net/vyse88cgwfbl/2kYf7r64h3tzwiu6F0CbUB/2997abd2f11ecea74a21528048b50707/Opinion___Report_-_Tether_International_Financial_Figure_30-06-2026.pdf",
+      "accessed_on": "2026-09-21",
+      "access_depth": "PDF_ASSET_TABLE_AND_ASSURANCE_SCOPE_VISUALLY_CHECKED",
+      "limitations": "Asset table PDF index8; assurance scope PDF index3. Direct bills divided by total reported assets, not cash-equivalent subtotal.",
+      "raw_file_preserved_here": false,
+      "source_hash": null
+    },
+    {
+      "id": "R05",
+      "title": "Circle Reports Second Quarter 2026 Results",
+      "url": "https://www.circle.com/pressroom/circle-reports-second-quarter-2026-results",
+      "accessed_on": "2026-09-21",
+      "access_depth": "COMPANY_RELEASE_AND_DETAILED_STATEMENTS_READ",
+      "limitations": "Full detailed tables accessed also via issuer's BusinessWire distribution. Financial figures and agent metrics are company disclosures, not independent third-party commercial verification.",
+      "raw_file_preserved_here": false,
+      "source_hash": null,
+      "additional_url": "https://www.businesswire.com/news/home/20260805828963/en/Circle-Reports-Second-Quarter-2026-Results",
+      "independence_note": "Circle site and BusinessWire copy are ONE issuer release, not two independent sources."
+    },
+    {
+      "id": "R06",
+      "title": "Microsoft FY2026 Q4 earnings release and cash-flow statement",
+      "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q4/press-release-webcast",
+      "accessed_on": "2026-09-21",
+      "access_depth": "PUBLIC_EARNINGS_CASH_FLOW_TABLE_READ",
+      "limitations": "FY endsJune30. Statement presented in USDmillions. CFO minus cash PPE arithmetic only; not AI-specific investment returns; not full10K audit review.",
+      "raw_file_preserved_here": false,
+      "source_hash": null
+    },
+    {
+      "id": "R07",
+      "title": "FRED CPIAUCSL: seasonally adjusted US CPI",
+      "url": "https://fred.stlouisfed.org/data/CPIAUCSL",
+      "accessed_on": "2026-09-21",
+      "access_depth": "TEXT_SERIES_ENDPOINT_OBSERVATIONS_READ",
+      "limitations": "Current revised data: Dec2021 280.845; Dec2022 298.832. Not historical real-time vintage.",
+      "raw_file_preserved_here": false,
+      "source_hash": null
+    },
+    {
+      "id": "R08",
+      "title": "FRED DTWEXBGS: nominal broad US dollar index",
+      "url": "https://fred.stlouisfed.org/data/DTWEXBGS",
+      "accessed_on": "2026-09-21",
+      "access_depth": "TEXT_SERIES_ENDPOINT_OBSERVATIONS_READ",
+      "limitations": "2021-12-30 115.2830 and2022-12-30 121.4256; last available observations in respective calendar years. Not CPI-adjusted dollar index.",
+      "raw_file_preserved_here": false,
+      "source_hash": null
+    },
+    {
+      "id": "R09",
+      "title": "BLS archived December2022 CPI release, Jan12 2023",
+      "url": "https://www.bls.gov/news.release/archives/cpi_01122023.htm",
+      "accessed_on": "2026-09-21",
+      "access_depth": "ARCHIVED_RELEASE_HEADLINE_AND_DEFINITIONS_READ",
+      "limitations": "12-month unadjusted headline6.5%; do not mix with revised SA6.4046%.",
+      "raw_file_preserved_here": false,
+      "source_hash": null
+    },
+    {
+      "id": "R10",
+      "title": "TreasuryDirect: Understanding Pricing and Interest Rates",
+      "url": "https://www.treasurydirect.gov/marketable-securities/understanding-pricing/",
+      "accessed_on": "2026-09-21",
+      "access_depth": "BILL_PRICING_FORMULA_READ",
+      "limitations": "Discount-price formula Face*(1-discountRate*days/360). Used for own90-day examples, not a regression re-estimate.",
+      "raw_file_preserved_here": false,
+      "source_hash": null
+    },
+    {
+      "id": "R11",
+      "title": "TreasuryDirect: FAQs about Treasury Securities Buybacks",
+      "url": "https://www.treasurydirect.gov/help-center/faqs/buyback-faqs/",
+      "accessed_on": "2026-09-21",
+      "access_depth": "PURPOSE_FUNDING_AND_RETIREMENT_SECTIONS_READ",
+      "limitations": "Cash management vs liquidity support, financing authorization and retirement. No transaction-by-transaction liquidity impact estimate.",
+      "raw_file_preserved_here": false,
+      "source_hash": null
+    },
+    {
+      "id": "R12",
+      "title": "Federal Reserve: Payment Stablecoins and Cross Border Payments, March30 2026",
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/payment-stablecoins-and-cross-border-payments-benefits-and-implications-for-monetary-policy-20260330.html",
+      "accessed_on": "2026-09-21",
+      "access_depth": "MODEL_ASSUMPTIONS_AND_BALANCE_SHEET_MECHANISMS_READ",
+      "limitations": "Stylized balance-sheet cases, including Treasury seller and banks' adjustments. Not an estimate of actual global net-demand share.",
+      "raw_file_preserved_here": false,
+      "source_hash": null
+    },
+    {
+      "id": "R13",
+      "title": "Federal Reserve: Stablecoins in 2025, April8 2026",
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/stablecoins-in-2025-developments-and-financial-stability-implications-20260408.html",
+      "accessed_on": "2026-09-21",
+      "access_depth": "PUBLIC_NOTE_RISK_AND_INTERMEDIATION_SECTIONS_READ",
+      "limitations": "Reserves do not exhaust risks: layered intermediation, links, operational risks. Not whole-market assurance.",
+      "raw_file_preserved_here": false,
+      "source_hash": null
+    },
+    {
+      "id": "R14",
+      "title": "Agent Payments Protocol AP2 official documentation",
+      "url": "https://ap2-protocol.org/",
+      "accessed_on": "2026-09-21",
+      "access_depth": "SPEC_OVERVIEW_AND_EXAMPLE_INDEX_READ",
+      "limitations": "Human-not-present card and x402 examples, authorization/mandates. No sample execution, signatures or payments.",
+      "raw_file_preserved_here": false,
+      "source_hash": null
+    },
+    {
+      "id": "R15",
+      "title": "Visa Onchain Analytics: Agentic Payments",
+      "url": "https://visaonchainanalytics.com/agentic-payments",
+      "accessed_on": "2026-09-21",
+      "access_depth": "PUBLIC_METRIC_DEFINITIONS_READ",
+      "limitations": "Buyer and merchant wallets are unique addresses; organic volume adjustedUSD. Dynamic dashboard totals not retrieved. No independent repeat-customer/net-sales panel.",
+      "raw_file_preserved_here": false,
+      "source_hash": null
+    },
+    {
+      "id": "R16",
+      "title": "Coinbase x402 launch documentation",
+      "url": "https://www.coinbase.com/developer-platform/discover/launches/x402",
+      "accessed_on": "2026-09-21",
+      "access_depth": "OFFICIAL_PROTOCOL_DESCRIPTION_READ",
+      "limitations": "Protocol functionality not economic adoption measurement; no actual requests or funds transferred.",
+      "raw_file_preserved_here": false,
+      "source_hash": null
+    },
+    {
+      "id": "R17",
+      "title": "Generative AI at Work, arXiv2304.11771",
+      "url": "https://arxiv.org/abs/2304.11771",
+      "accessed_on": "2026-09-21",
+      "access_depth": "ABSTRACT_AND_VERSION_METADATA_READ",
+      "limitations": "Current abstract5172 support agents,15% productivity improvement. Staggered adoption, not described here as randomized trial. Whole methods not re-read.",
+      "raw_file_preserved_here": false,
+      "source_hash": null
+    },
+    {
+      "id": "R18",
+      "title": "The Effects of Generative AI on High-Skilled Work, Management Science",
+      "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2025.00535",
+      "accessed_on": "2026-09-21",
+      "access_depth": "PUBLISHED_ABSTRACT_AND_METADATA_READ",
+      "limitations": "Three developer field experiments,4867 participants,26.08% completed-task increase(SE10.3%). No full paper replication.",
+      "raw_file_preserved_here": false,
+      "source_hash": null
+    },
+    {
+      "id": "R19",
+      "title": "METR early2025 experienced developer randomized study",
+      "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+      "accessed_on": "2026-09-21",
+      "access_depth": "RESEARCH_TEAM_PUBLIC_METHODS_AND_RESULTS_READ",
+      "limitations": "16experienced open-source developers,246tasks;19% slower in study setting. Not universal productivity effect.",
+      "raw_file_preserved_here": false,
+      "source_hash": null,
+      "independence_note": "METR series: same research organization; designs, samples and periods differ; do not count as three independent replications."
+    },
+    {
+      "id": "R20",
+      "title": "METR developer productivity measurement update, Feb24 2026",
+      "url": "https://metr.org/blog/2026-02-24-uplift-update/",
+      "accessed_on": "2026-09-21",
+      "access_depth": "RESEARCH_TEAM_METHOD_LIMITATIONS_AND_RESULTS_READ",
+      "limitations": "Selection and timing measurement problems; imprecise faster estimates cannot be treated as reliable causal industry effect.",
+      "raw_file_preserved_here": false,
+      "source_hash": null,
+      "independence_note": "METR series: same research organization; designs, samples and periods differ; do not count as three independent replications."
+    },
+    {
+      "id": "R21",
+      "title": "METR AI usage survey, May11 2026",
+      "url": "https://metr.org/blog/2026-05-11-ai-usage-survey/",
+      "accessed_on": "2026-09-21",
+      "access_depth": "RESEARCH_TEAM_SURVEY_METHOD_AND_RESULTS_READ",
+      "limitations": "349technical workers Feb-Apr2026; self-reportedwork-value/speed. Different design from RCT, same organization, not independent replication.",
+      "raw_file_preserved_here": false,
+      "source_hash": null,
+      "independence_note": "METR series: same research organization; designs, samples and periods differ; do not count as three independent replications."
+    },
+    {
+      "id": "R22",
+      "title": "Federal Reserve: The AI Buildout and the Economy, July17 2026",
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-ai-buildout-and-the-economy-publicly-available-data-to-assess-ais-impact-20260717.html",
+      "accessed_on": "2026-09-21",
+      "access_depth": "TEXT_METHOD_FRAMEWORK_AND_LIMITATIONS_READ",
+      "limitations": "Capabilities/costs, adoption/investment, productivity/labor; gross investment/imports, nonAIcapex and leases. Chart source series not downloaded or recreated.",
+      "raw_file_preserved_here": false,
+      "source_hash": null
+    },
+    {
+      "id": "R23",
+      "title": "Bank of England: Money creation in the modern economy,2014",
+      "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy",
+      "accessed_on": "2026-09-21",
+      "access_depth": "OFFICIAL_SUMMARY_READ",
+      "limitations": "Bank loan/deposit creation and QE conceptual summary; no comprehensive historical anthropology review.",
+      "raw_file_preserved_here": false,
+      "source_hash": null
+    },
+    {
+      "id": "R24",
+      "title": "Tether company announcement of inaugural financial audit,Aug13 2026",
+      "url": "https://tether.io/news/tether-completes-the-largest-inaugural-financial-audit-in-history/",
+      "accessed_on": "2026-09-21",
+      "access_depth": "COMPANY_ANNOUNCEMENT_ONLY",
+      "limitations": "Company says KPMGUS completed2025USGAAP audit. Signed full auditor report not obtained. Cannot independently upgrade assurance based on announcement alone.",
+      "raw_file_preserved_here": false,
+      "source_hash": null
+    }
+  ]
+}

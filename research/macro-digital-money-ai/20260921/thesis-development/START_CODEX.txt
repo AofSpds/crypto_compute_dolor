@@ -1,0 +1,23 @@
+첨부한 MDMA_THESIS_CODEX_WORK_HANDOFF_v1.0_20260921.md 또는 ZIP을 읽고 실행하세요.
+
+대상 저장소: AofSpds/crypto_compute_dolor
+기존 연구 branch: codex/mdma-research-20260921
+출력 경로: research/macro-digital-money-ai/20260921/thesis-development
+
+먼저 THESIS_BASELINE_v1.0_20260921.md와 CODEX_WORK_REQUEST_v1.0_20260921.md,
+동봉한 입력 자료를 원문 그대로 연구 branch에 commit·일반 push하세요.
+이후 기존 연구를 재사용하면서 출처를 확인하고 반대 증거·이론·실증을 보완하여
+THESIS_v1.1.md를 하나의 통합 논증문으로 완성하세요.
+
+원문을 옹호하는 결론에 맞추지 마세요. 증거에 따라 주장·범위·제목을 바꿀 수 있습니다.
+검토표나 계획서만 반환하지 말고, 출처를 갖춘 완성된 주장과 근거·변경 기록을 반환하세요.
+본문의 출처 링크와 과거 검토 결과를 이번 실행에서 이미 검증한 것으로 취급하지 마세요.
+기존 H10/H18/H23의 보류를 근거 없이 해제하지 마세요.
+
+접근 경계를 우회하지 말고, 원문을 덮어쓰거나 main에 병합하지 마세요.
+실거래·계좌/지갑 접속·유료 접근·운영전략 변경은 하지 마세요.
+일상적인 연구 단계마다 승인을 다시 요청하지 마세요.
+
+최종적으로 THESIS_v1.1.md, ARGUMENT_EVIDENCE.md, RESEARCH_RETURN_PACKET.md와
+실제 branch·원문 보존 commit·결과 commit·push 상태를 보고하세요.
+진행 보고 말미에는 M0~M4의 마일스톤과 현재 위치를 표시하세요.

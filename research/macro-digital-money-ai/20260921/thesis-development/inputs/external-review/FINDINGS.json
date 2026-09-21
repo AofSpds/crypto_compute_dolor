@@ -1,0 +1,84 @@
+[
+  {
+    "id": "F01",
+    "kind": "PRIMARY_SOURCE_UNIT_ERROR",
+    "target": "BIS WP1270 June2026 PDF index35, printed34, footnote38",
+    "observed": "Dollar price conversion approximately 100x too large",
+    "scope": "Explanatory price conversion only; impact on original research unknown",
+    "action": "Search original artifacts for propagation and correct only affected quantities",
+    "sources": [
+      "R01",
+      "R10"
+    ]
+  },
+  {
+    "id": "F02",
+    "kind": "ESTIMAND_REFINEMENT",
+    "target": "H10",
+    "observed": "Issuer holdings and marginal price effects do not identify global net-additional demand share",
+    "scope": "Keep original unidentified share on hold",
+    "action": "Separate counterfactual demand, holder substitution, repo/collateral, seller/bank adjustment and tenor-specific prices",
+    "sources": [
+      "R01",
+      "R12"
+    ]
+  },
+  {
+    "id": "F03",
+    "kind": "EVIDENCE_LAYER_REFINEMENT",
+    "target": "H23",
+    "observed": "Company commercial indicators exist; independent repeat-customer/refund-net-sales panel not obtained",
+    "scope": "No claim that all public evidence worldwide is absent",
+    "action": "Retain company metrics with provenance; do not substitute addresses or catalogue entries for customers",
+    "sources": [
+      "R05",
+      "R14",
+      "R15"
+    ]
+  },
+  {
+    "id": "F04",
+    "kind": "CAUSAL_SCOPE",
+    "target": "Stablecoin shock to asset prices",
+    "observed": "Conditional short-rate evidence and small dynamic spillovers, not an identified AI-to-assets chain",
+    "scope": "No regression replication performed",
+    "action": "Preserve shock normalization, method, maturity and horizon; do not pool coefficients mechanically",
+    "sources": [
+      "R01",
+      "R02"
+    ]
+  },
+  {
+    "id": "F05",
+    "kind": "NUMERICAL_DEFINITIONS",
+    "target": "Reported CPI, reserves, RLDC, cash flow",
+    "observed": "Public-source arithmetic consistent with handoff after rounding",
+    "scope": "Not full financial audit, original code review or real-time-vintage reproduction",
+    "action": "Retain SA/NSA, denominator, units, company-wide versus AI-specific and conditional BTC input flags",
+    "sources": [
+      "R03",
+      "R04",
+      "R05",
+      "R06",
+      "R07",
+      "R08",
+      "R09"
+    ]
+  },
+  {
+    "id": "F06",
+    "kind": "PRODUCTIVITY_MEASUREMENT",
+    "target": "H25 and AI macro transmission",
+    "observed": "Task/population/design/time heterogeneity; later positive signals differ in evidential quality",
+    "scope": "Two papers checked at abstract/metadata level; METR public reports read; no replication",
+    "action": "Measure quality-adjusted completed-work cost and separate task, job, firm and economy levels",
+    "sources": [
+      "R17",
+      "R18",
+      "R19",
+      "R20",
+      "R21",
+      "R22"
+    ]
+  }
+]

@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "baseline_file": "THESIS_BASELINE_v1.0_20260921.md",
+  "unique_url_count": 10,
+  "not_a_verified_source_register": true,
+  "sources": [
+    {
+      "seed_id": "BS001",
+      "url": "https://arxiv.org/abs/2304.11771",
+      "provenance": "Link inherited from the immediately preceding webchat thesis",
+      "verification_in_this_packaging_turn": "NOT_PERFORMED",
+      "use": "Discovery seed; verify source existence, edition and claim support in Codex WORK",
+      "baseline_occurrences": [
+        {
+          "line": 29,
+          "paragraph": "실증 연구는 이 가능성의 출발점을 일부 뒷받침합니다. 고객지원 직원 5,172명을 분석한 연구에서는 AI 보조 도입 후 시간당 해결 건수가 평균 15% 증가했고, 효과는 숙련도에 따라 달랐습니다. 이것은 완전자율 에이전트 경제의 증거는 아니지만, **특정 업무에서 인간의 지식 접근과 수행 비용을 낮출 수 있다는 근거**입니다. ([arxiv.org](https://arxiv.org/abs/2304.11771))"
+        }
+      ]
+    },
+    {
+      "seed_id": "BS002",
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-ai-buildout-and-the-economy-publicly-available-data-to-assess-ais-impact-20260717.html",
+      "provenance": "Link inherited from the immediately preceding webchat thesis",
+      "verification_in_this_packaging_turn": "NOT_PERFORMED",
+      "use": "Discovery seed; verify source existence, edition and claim support in Codex WORK",
+      "baseline_occurrences": [
+        {
+          "line": 35,
+          "paragraph": "물론 디지털 작업을 더 많이 수행했다는 사실만으로 사회 전체의 부가가치가 같은 만큼 증가하지는 않습니다. 기존 작업을 대체했는지, 새로운 서비스를 만들었는지, 품질이 개선됐는지, 절약한 시간이 다른 생산적 활동으로 이어졌는지를 봐야 합니다. 연준 연구진도 과업 단위의 개선과 기업·산업·경제 전체의 생산성을 구분하며, 조직의 조정 비용과 다른 생산 병목이 개별 과업의 개선을 상쇄할 수 있다고 설명합니다. ([federalreserve.gov](https://www.federalreserve.gov/econres/notes/feds-notes/the-ai-buildout-and-the-economy-publicly-available-data-to-assess-ais-impact-20260717.html))"
+        }
+      ]
+    },
+    {
+      "seed_id": "BS003",
+      "url": "https://ap2-protocol.org/",
+      "provenance": "Link inherited from the immediately preceding webchat thesis",
+      "verification_in_this_packaging_turn": "NOT_PERFORMED",
+      "use": "Discovery seed; verify source existence, edition and claim support in Codex WORK",
+      "baseline_occurrences": [
+        {
+          "line": 51,
+          "paragraph": "AP2가 권한 부여·사용자 의도의 확인·책임 소재를 핵심 문제로 다루고, 서명된 거래·지급 위임을 연결하는 구조를 제시하는 이유도 여기에 있습니다. 이는 단순한 송금 규격보다 **사람이 직접 버튼을 누르지 않는 거래를 어떻게 신뢰할 것인가**에 가까운 문제입니다. ([ap2-protocol.org](https://ap2-protocol.org/))"
+        },
+        {
+          "line": 97,
+          "paragraph": "실제로 AP2에는 사람이 실시간으로 개입하지 않는 카드 결제와 x402 결제 예제가 모두 존재합니다. **자동화된 구매와 블록체인 결제는 분리 가능한 선택**입니다. ([ap2-protocol.org](https://ap2-protocol.org/))"
+        }
+      ]
+    },
+    {
+      "seed_id": "BS004",
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/fifth-conference-on-the-international-roles-of-the-u-s-dollar-stablecoins-digital-payments-and-the-ir-of-the-usd-20260716.html",
+      "provenance": "Link inherited from the immediately preceding webchat thesis",
+      "verification_in_this_packaging_turn": "NOT_PERFORMED",
+      "use": "Discovery seed; verify source existence, edition and claim support in Codex WORK",
+      "baseline_occurrences": [
+        {
+          "line": 73,
+          "paragraph": "달러는 국제 결제와 자금조달에서 광범위하게 사용되고 있습니다. 2026년 7월 연준의 국제 달러 회의 정리도 스테이블코인을 별개의 독립 경제라기보다, 기존 달러 수요를 새로운 접근·이전·보유 경로로 연결하는 현상으로 설명합니다. ([federalreserve.gov](https://www.federalreserve.gov/econres/notes/feds-notes/fifth-conference-on-the-international-roles-of-the-u-s-dollar-stablecoins-digital-payments-and-the-ir-of-the-usd-20260716.html))"
+        }
+      ]
+    },
+    {
+      "seed_id": "BS005",
+      "url": "https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system",
+      "provenance": "Link inherited from the immediately preceding webchat thesis",
+      "verification_in_this_packaging_turn": "NOT_PERFORMED",
+      "use": "Discovery seed; verify source existence, edition and claim support in Codex WORK",
+      "baseline_occurrences": [
+        {
+          "line": 79,
+          "paragraph": "달러 스테이블코인은 이 분리를 보여주는 한 가지 형태입니다. 가격의 기준은 달러지만, 보유·이전 방식은 블록체인 기반일 수 있습니다. 다만 같은 달러 표시라고 해서 은행예금과 특정 발행사의 토큰이 동일한 청구권이나 위험을 갖는 것은 아닙니다. BIS 역시 화폐의 가치 표시 단위와 실제로 보유하는 발행사별 청구권을 구분합니다. ([bis.org](https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system))"
+        }
+      ]
+    },
+    {
+      "seed_id": "BS006",
+      "url": "https://www.bis.org/publications/paper-170-impact-stablecoins-international-monetary-and-financial-system",
+      "provenance": "Link inherited from the immediately preceding webchat thesis",
+      "verification_in_this_packaging_turn": "NOT_PERFORMED",
+      "use": "Discovery seed; verify source existence, edition and claim support in Codex WORK",
+      "baseline_occurrences": [
+        {
+          "line": 81,
+          "paragraph": "이렇게 보면 “블록체인이 성장하면 달러가 쇠퇴한다”는 설명보다, **“블록체인이 달러를 유통하는 새로운 기반이 될 수 있다”**는 설명이 더 자연스러워집니다. BIS의 2026년 연구도 달러 표시 스테이블코인의 비중과 사용 구조를 근거로, 초기에는 기존 통화 질서를 강화하는 방향이 나타날 수 있다고 분석합니다. ([bis.org](https://www.bis.org/publications/paper-170-impact-stablecoins-international-monetary-and-financial-system))"
+        },
+        {
+          "line": 145,
+          "paragraph": "물론 실제 스테이블코인 잔액은 결제 외에 저축과 달러 보유 수요 때문에 증가할 수 있습니다. BIS 연구도 스테이블코인의 교환수단 역할과 가치저장 역할을 구분합니다. 중요한 것은 이 수요들을 하나로 합쳐 거래량에서 곧바로 잔액을 추정하지 않는 것입니다. ([bis.org](https://www.bis.org/publications/paper-170-impact-stablecoins-international-monetary-and-financial-system))"
+        }
+      ]
+    },
+    {
+      "seed_id": "BS007",
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/payment-stablecoins-and-cross-border-payments-benefits-and-implications-for-monetary-policy-20260330.html",
+      "provenance": "Link inherited from the immediately preceding webchat thesis",
+      "verification_in_this_packaging_turn": "NOT_PERFORMED",
+      "use": "Discovery seed; verify source existence, edition and claim support in Codex WORK",
+      "baseline_occurrences": [
+        {
+          "line": 107,
+          "paragraph": "연준의 국경 간 스테이블코인 분석도 온체인 전송 비용만으로 전체 효율을 판단하지 않습니다. 법정화폐와의 전환 비용, 외환 처리, 기존 중개기관의 규모의 경제가 결과를 바꿀 수 있다고 설명합니다. ([federalreserve.gov](https://www.federalreserve.gov/econres/notes/feds-notes/payment-stablecoins-and-cross-border-payments-benefits-and-implications-for-monetary-policy-20260330.html))"
+        },
+        {
+          "line": 163,
+          "paragraph": "또한 **발행사의 국채 보유 증가와 경제 전체의 추가 수요는 다릅니다.** 사용자가 기존 MMF나 직접 보유 국채를 줄이고 토큰으로 이동했다면 상당 부분은 보유 주체의 교체일 수 있습니다. 발행사에 국채를 판 투자자가 무엇을 다시 매입하는지도 중요합니다. 연준의 대차대조표 분석은 이러한 다른 투자자와 은행의 조정이 초기 효과를 일부 상쇄할 수 있다고 설명합니다. ([federalreserve.gov](https://www.federalreserve.gov/econres/notes/feds-notes/payment-stablecoins-and-cross-border-payments-benefits-and-implications-for-monetary-policy-20260330.html))"
+        }
+      ]
+    },
+    {
+      "seed_id": "BS008",
+      "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy",
+      "provenance": "Link inherited from the immediately preceding webchat thesis",
+      "verification_in_this_packaging_turn": "NOT_PERFORMED",
+      "use": "Discovery seed; verify source existence, edition and claim support in Codex WORK",
+      "baseline_occurrences": [
+        {
+          "line": 161,
+          "paragraph": "먼저 **자산의 형태를 바꾸는 것과 신용을 새로 공급하는 것은 다릅니다.** 영란은행이 설명하는 상업은행의 대출·예금 생성과, 기존 자금을 받아 준비자산을 매입하는 발행 구조는 같은 과정이 아닙니다. ([bankofengland.co.uk](https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy))"
+        }
+      ]
+    },
+    {
+      "seed_id": "BS009",
+      "url": "https://www.bis.org/publications/working-paper-1270-stablecoins-and-safe-asset-prices",
+      "provenance": "Link inherited from the immediately preceding webchat thesis",
+      "verification_in_this_packaging_turn": "NOT_PERFORMED",
+      "use": "Discovery seed; verify source existence, edition and claim support in Codex WORK",
+      "baseline_occurrences": [
+        {
+          "line": 165,
+          "paragraph": "그렇다고 가격 효과가 없다는 뜻은 아닙니다. 보유 주체의 가격 민감도와 선호 만기가 달라지면, 총량의 큰 변화 없이도 가격이 움직일 수 있습니다. BIS 연구는 특정 식별 가정 아래 스테이블코인 유입의 단기국채 금리 효과를 보고하지만, 긴 만기로의 파급은 제한적이라고 설명합니다. ([bis.org](https://www.bis.org/publications/working-paper-1270-stablecoins-and-safe-asset-prices))"
+        }
+      ]
+    },
+    {
+      "seed_id": "BS010",
+      "url": "https://bitcoin.org/en/faq",
+      "provenance": "Link inherited from the immediately preceding webchat thesis",
+      "verification_in_this_packaging_turn": "NOT_PERFORMED",
+      "use": "Discovery seed; verify source existence, edition and claim support in Codex WORK",
+      "baseline_occurrences": [
+        {
+          "line": 187,
+          "paragraph": "비트코인의 공급 규칙과 발행 주체에 대한 의존 구조는 달러 스테이블코인과 다릅니다. 동시에 공급 규칙이 제한되어 있다는 사실이 가격 안정이나 수익을 보장하지는 않습니다. 비트코인 설명 문서도 가격이 수요·공급에 따라 움직이며 구매력이 보장되지 않는다고 명시합니다. ([bitcoin.org](https://bitcoin.org/en/faq))"
+        }
+      ]
+    }
+  ]
+}

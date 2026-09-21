@@ -1,0 +1,58 @@
+{
+  "packet_id": "MDMA-THESIS-WORK-20260921-001",
+  "date_label": "2026-09-21",
+  "user_intent": "Preserve the current thesis in Git, then ask Codex WORK to verify, strengthen and supplement it into one sourced argument.",
+  "baseline": {
+    "file": "THESIS_BASELINE_v1.0_20260921.md",
+    "source": "Immediately preceding assistant thesis in this conversation",
+    "scope": "Full thesis body, including existing links and illustrative examples",
+    "status": "Candidate argument, not independently established in this packaging task",
+    "sha256": "8f1fa519e496182d5a168926dc879be0909d6eba3af61eed4c472fe610083325",
+    "semantic_editing_in_packaging": "None intended; UTF-8/LF transcription from the conversation"
+  },
+  "repository": {
+    "name": "AofSpds/crypto_compute_dolor",
+    "local_path_from_user": "C:\\Users\\ms1pk\\dev\\rsch\\crypto_compute_dolor",
+    "branch_from_user": "codex/mdma-research-20260921",
+    "full_research_commit_from_user": "39d5cbed92459b55b70e0dd7ba231584a4e75b73",
+    "previous_final_commit_from_user": "c7ee7a6444097195155b03fc5b671d4b871b0183",
+    "metadata_verification_this_turn": "NOT_VERIFIED",
+    "destination": "research/macro-digital-money-ai/20260921/thesis-development"
+  },
+  "webchat_execution_status": {
+    "target_repo_read": "NOT_PERFORMED",
+    "target_repo_write": "NOT_PERFORMED",
+    "target_git_commit": "NOT_PERFORMED",
+    "target_git_push": "NOT_PERFORMED",
+    "codex_work_submission": "NOT_SUBMITTED",
+    "new_external_research": "NOT_PERFORMED",
+    "new_independent_research_review": "NOT_PERFORMED",
+    "artifact_creation": "PERFORMED_IN_CHATGPT_CONTAINER"
+  },
+  "access_boundary": {
+    "available_hef_workspace": "C:\\Users\\ms1pk\\dev\\AAA\\hef-work",
+    "target_repo_in_registered_workspace": false,
+    "boundary_bypass_authorized": false,
+    "handoff_execution_location": "Codex WORK session with legitimate access to the target repository"
+  },
+  "inherited_external_review": {
+    "source_archive_name": "MDMA_EXTERNAL_REVIEW_20260921.zip",
+    "source_archive_sha256": "197dfff0674adcce84f691482fc7646a02a93ebdf255d7dd23164abdec13840e",
+    "preserved_file_count": 7,
+    "destination": "inputs/external-review/",
+    "verification_this_turn": "Byte-preservation checks only; no new verification of claims, source contents, code outputs or regressions",
+    "instructions_inside": "Historical records, not current operational authority"
+  },
+  "git_write_scope_for_work": {
+    "purpose": "Commit and normal-push the baseline, this request, and directly related research outputs to the research branch",
+    "forbidden": [
+      "main merge",
+      "force push",
+      "branch deletion",
+      "unrelated edits",
+      "credential changes",
+      "access boundary bypass",
+      "live financial transactions"
+    ]
+  }
+}

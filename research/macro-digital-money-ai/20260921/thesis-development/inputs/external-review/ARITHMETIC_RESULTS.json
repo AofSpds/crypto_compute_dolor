@@ -1,0 +1,195 @@
+{
+  "review_date": "2026-09-21",
+  "scope": "Manually transcribed public-source inputs and own arithmetic only",
+  "original_research_code_executed": false,
+  "original_raw_snapshots_accessed": false,
+  "paper_regression_replications": 0,
+  "checks": {
+    "circle_treasury_rounds_to_11_62": true,
+    "circle_repo_rounds_to_71_62": true,
+    "tether_bills_rounds_to_61_23": true,
+    "circle_rldc": true,
+    "circle_operating_income": true,
+    "microsoft_fcf": true,
+    "microsoft_yoy": true,
+    "cpi_sa": true,
+    "broad_usd": true,
+    "conditional_btc_real": true,
+    "bill_dv01": true,
+    "bis_factor_100": true
+  },
+  "results": [
+    {
+      "id": "CIRCLE_DIRECT_TREASURY_SHARE_20260630",
+      "value": "11.621889408228012992038339203628",
+      "unit": "percent of total USDC reserves",
+      "sources": [
+        "R03"
+      ],
+      "formula": "8524064231 / 73344909176 * 100",
+      "status": "PUBLIC_INPUT_ARITHMETIC_REPRODUCED"
+    },
+    {
+      "id": "CIRCLE_OVERNIGHT_REPO_SHARE_20260630",
+      "value": "71.616422448564352967602344120462",
+      "unit": "percent of total USDC reserves",
+      "sources": [
+        "R03"
+      ],
+      "formula": "52527000000 / 73344909176 * 100",
+      "status": "PUBLIC_INPUT_ARITHMETIC_REPRODUCED"
+    },
+    {
+      "id": "TETHER_DIRECT_BILLS_SHARE_20260630",
+      "value": "61.230407566834152780448992207577",
+      "unit": "percent of reported total assets",
+      "sources": [
+        "R04"
+      ],
+      "formula": "114960963604 / 187751426411 * 100",
+      "status": "PUBLIC_INPUT_ARITHMETIC_REPRODUCED"
+    },
+    {
+      "id": "CIRCLE_RLDC_2026Q2",
+      "value": "288.845",
+      "unit": "USD million",
+      "sources": [
+        "R05"
+      ],
+      "formula": "(701315 - 412470) / 1000; source in USD thousand",
+      "status": "PUBLIC_INPUT_ARITHMETIC_REPRODUCED"
+    },
+    {
+      "id": "CIRCLE_OPERATING_INCOME_2026Q2",
+      "value": "34.359",
+      "unit": "USD million",
+      "sources": [
+        "R05"
+      ],
+      "formula": "(701315 - 412470 - 254486) / 1000",
+      "status": "PUBLIC_INPUT_ARITHMETIC_REPRODUCED"
+    },
+    {
+      "id": "MSFT_CFO_MINUS_CASH_PPE_FY2026",
+      "value": "66.987",
+      "unit": "USD billion",
+      "sources": [
+        "R06"
+      ],
+      "formula": "(182935 - 115948) / 1000",
+      "status": "PUBLIC_INPUT_ARITHMETIC_REPRODUCED"
+    },
+    {
+      "id": "MSFT_CFO_MINUS_CASH_PPE_FY2025",
+      "value": "71.611",
+      "unit": "USD billion",
+      "sources": [
+        "R06"
+      ],
+      "formula": "(136162 - 64551) / 1000",
+      "status": "PUBLIC_INPUT_ARITHMETIC_REPRODUCED"
+    },
+    {
+      "id": "MSFT_CFO_MINUS_CASH_PPE_YOY",
+      "value": "-6.4571085447766404602644845065700",
+      "unit": "percent",
+      "sources": [
+        "R06"
+      ],
+      "formula": "(66987 / 71611 - 1) * 100",
+      "status": "PUBLIC_INPUT_ARITHMETIC_REPRODUCED"
+    },
+    {
+      "id": "US_CPI_SA_DEC2022_VS_DEC2021",
+      "value": "6.4046004023571721056098559703800",
+      "unit": "percent",
+      "sources": [
+        "R07"
+      ],
+      "formula": "(298.832 / 280.845 - 1) * 100",
+      "status": "PUBLIC_INPUT_ARITHMETIC_REPRODUCED"
+    },
+    {
+      "id": "USD_DOMESTIC_PURCHASING_POWER_CHANGE",
+      "value": "-6.0191010333565347753921936071150",
+      "unit": "percent",
+      "sources": [
+        "R07"
+      ],
+      "formula": "(280.845 / 298.832 - 1) * 100",
+      "status": "PUBLIC_INPUT_ARITHMETIC_REPRODUCED"
+    },
+    {
+      "id": "BROAD_USD_LAST_2022_VS_LAST_2021",
+      "value": "5.32827910446466521516615632834",
+      "unit": "percent",
+      "sources": [
+        "R08"
+      ],
+      "formula": "(2022-12-30 level 121.4256 / 2021-12-30 level 115.2830 - 1) * 100",
+      "status": "PUBLIC_INPUT_ARITHMETIC_REPRODUCED"
+    },
+    {
+      "id": "BTC_REAL_2022_CONDITIONAL",
+      "value": "-66.401828619424961182202709214543",
+      "unit": "percent",
+      "sources": [
+        "USER_HANDOFF",
+        "R07"
+      ],
+      "formula": "((1 - 0.6425) / (298.832 / 280.845) - 1) * 100",
+      "status": "CONDITIONAL_ON_UNVERIFIED_NOMINAL_RETURN"
+    },
+    {
+      "id": "BILL_PRICE_PER100_DROP_1BP",
+      "value": "0.0025",
+      "unit": "USD per USD100 face",
+      "sources": [
+        "R10"
+      ],
+      "formula": "100 * (1 / 10000) * 90 / 360; 90-day bill discount-rate example",
+      "status": "OWN_FORMULA_CALCULATION"
+    },
+    {
+      "id": "BILL_PRICE_PER100_DROP_4BP",
+      "value": "0.01",
+      "unit": "USD per USD100 face",
+      "sources": [
+        "R10"
+      ],
+      "formula": "100 * (4 / 10000) * 90 / 360; 90-day bill discount-rate example",
+      "status": "OWN_FORMULA_CALCULATION"
+    },
+    {
+      "id": "BILL_PRICE_PER100_DROP_5BP",
+      "value": "0.0125",
+      "unit": "USD per USD100 face",
+      "sources": [
+        "R10"
+      ],
+      "formula": "100 * (5 / 10000) * 90 / 360; 90-day bill discount-rate example",
+      "status": "OWN_FORMULA_CALCULATION"
+    },
+    {
+      "id": "BILL_PRICE_PER100_DROP_10BP",
+      "value": "0.025",
+      "unit": "USD per USD100 face",
+      "sources": [
+        "R10"
+      ],
+      "formula": "100 * (10 / 10000) * 90 / 360; 90-day bill discount-rate example",
+      "status": "OWN_FORMULA_CALCULATION"
+    },
+    {
+      "id": "BIS_FOOTNOTE38_PRICE_SCALE_RATIO_4BP",
+      "value": "1E+2",
+      "unit": "multiple",
+      "sources": [
+        "R01",
+        "R10"
+      ],
+      "formula": "Footnote's USD1 / independently computed USD0.01",
+      "status": "SOURCE_EXPLANATORY_UNIT_ERROR_NOT_REGRESSION_REPLICATION"
+    }
+  ]
+}
